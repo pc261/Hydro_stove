@@ -16,5 +16,13 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         justify-content: center;
         background: black;
+        background-image: url("../public/Background_img.svg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 40.5rem;
+
+        @media (min-width: 1024px) {
+            background-size: 150rem;
+        }
     }
 `
