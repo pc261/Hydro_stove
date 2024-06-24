@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     *{
@@ -24,5 +25,17 @@ export const GlobalStyle = createGlobalStyle`
         @media (min-width: 1024px) {
             background-size: 150rem;
         }
+    }
+`
+export const Main = styled.main`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100svw;
+
+    margin-top: 4.4rem;
+
+    @media (min-width: 1024px){
+        margin-top: 7.9rem;
     }
 `
