@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 // Estilização do header
 export const HeaderBox = styled.header`
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,25 +109,22 @@ export const ButtonPagesDesktop = styled.div`
     
     
 `
-export const MenuButtonContainer = styled.div`
-
-`
-
 // Estilização do Conteúdo principal da página 
 
 export const BannerInicial = styled.section`
     background-image: url(../public/FolhasBanner.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 25.5rem;
+    margin-top: 4.4rem;
 
     div{
-        width: 30.67rem; 
+        width: 30rem; 
         margin-top: 3.322rem;
         margin-left: 1.281rem;
         font-family: "Roboto", sans-serif;
-        font-size: 6.4rem;
+        font-size: 5.5em;
         color: #FFF;
     }
     div p{
@@ -137,13 +134,128 @@ export const BannerInicial = styled.section`
     }
 
     @media (min-width: 1024px) {
-       height: 77rem;
-       background-size: cover;
+        margin-top: 7.9rem;
+        height: 70rem;
+        background-size: cover;
 
-       div{
-        width: 27.1rem;
-        margin-top: 10.8rem;
-        margin-left: 4.3rem;
-       }
+        div{
+            width: 27.1rem;
+            margin-top: 10.8rem;
+            margin-left: 4.3rem;
+            font-size: 6.4rem;
+        }
     }
 `
+export const SobreContainer  = styled.section`
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin-top: 7.6rem;
+`
+export const SobreInicial = styled.div`
+
+    width: 81svw;
+    border-radius: 1.5rem;
+    background-color: #20483D;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    #textos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        margin-bottom: 4.3rem;
+    }
+   
+
+   h2{
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     font-size: 6.4rem;
+     margin-top: 5.2rem;
+     margin-bottom: 3.4rem;
+    
+     color: #BDBDBD;
+
+   }
+
+    p{
+
+        font-family: "Arimo", sans-serif;
+        font-size: 1.5rem;
+        text-align: justify;
+        line-height: 2.5rem;
+        color: #FFF;
+
+        width: 82%;
+   }
+
+   ul{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   }
+
+   li{
+        font-family: "Arimo", sans-serif;
+        font-size: 1.5rem;
+        text-align: justify;
+        line-height: 2.5rem;
+        color: #FFF;
+
+        width: 82%;
+        
+   }
+
+   @media(min-width: 1024px){
+    
+        width: 92%;
+        flex-direction: row;
+
+        #textos{
+            margin-left: 7.1rem;
+            margin-right: 3.9rem;
+        }
+
+        h2{
+            font-weight: normal;
+            color: #FFF;
+            width: 100%;
+            text-align: left;
+            margin-top: 3.2rem;
+            margin-bottom: 1.7rem;
+        }
+
+        p{
+            font-size: 2.6rem;
+            line-height: 3.0rem;
+            width: 49.5rem;
+        }
+
+        li{
+            font-size: 2.6rem;
+            line-height: 3.0rem;
+            width: 49.5rem;
+        }
+   }
+`
+export const ImagensSobre = styled.div`
+    display: none;
+
+    @media(min-width: 1024px){
+        display: flex;
+        flex-direction: column;
+        gap: 4.8rem;
+        margin-left: 4.0rem;
+    }
+`
+

@@ -13,8 +13,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        height: 100svh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         background: black;
         background-image: url("../public/Background_img.svg");
@@ -29,13 +29,7 @@ export const GlobalStyle = createGlobalStyle`
 `
 export const Main = styled.main`
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100svw;
-
-    margin-top: 4.4rem;
-
-    @media (min-width: 1024px){
-        margin-top: 7.9rem;
-    }
 `
