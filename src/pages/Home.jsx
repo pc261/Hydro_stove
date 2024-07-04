@@ -1,6 +1,6 @@
 import { Main } from "../styles/global.js";
 import { Header } from "../elements/Header.jsx";
-import { BannerInicial, SobreInicial, ImagensSobre, SobreContainer } from "../styles/Home.styles.js";
+import { BannerInicial, SobreInicial, ImagensSobre, SobreContainer, NossaMissaoContainer } from "../styles/Home.styles.js";
 import ImagemTerra from "/ImagemTerra.svg";
 import ImagemCampos from "/ImagemCampos.svg"
 import ImagemPlantacao from "/ImagemPlantacao.svg"
@@ -26,17 +26,22 @@ export function Home() {
 
         </BannerInicial>
 
+
         <SobreContainer>
 
           <SobreInicial>
             
               <ImagensSobre>
+
                 <img src={ImagemTerra} alt="Imagem do solo sendo regado" />
                 <img src={ImagemCampos} alt="Imagem de um campo agrícola sendo regado" />
+
               </ImagensSobre>
 
               <ImagensSobre>
+
                 <img src={ImagemPlantacao} alt="" />
+
               </ImagensSobre>
 
               <div id="textos">
@@ -53,16 +58,31 @@ export function Home() {
                 </ul>
 
               </div>
-
               
-
           </SobreInicial>
 
-            
-
-         
-
         </SobreContainer>
+
+
+        <NossaMissaoContainer>
+
+          <h2>Nossa missão</h2>
+
+          <div>
+
+            <h2>1</h2>
+            <p>Facilitar o trabalho dos agricultores e permitir o cultivo de vegetais dentro da sua casa.</p>
+
+          </div>
+
+          <div> 
+
+            <p>Ajudar na diminuição da poluição, incentivando o plantio e diminuindo os gastos de água e tempo. </p>
+            <h2>2</h2>
+
+          </div>
+
+        </NossaMissaoContainer>
 
 
       </Main>

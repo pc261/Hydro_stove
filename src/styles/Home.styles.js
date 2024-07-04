@@ -7,7 +7,7 @@ export const HeaderBox = styled.header`
     justify-content: center;
     align-items: center;
 `
-export const HeaderContainer = styled.div`
+export const HeaderContainer = styled.section`
     width: calc(100svw - 3.4rem);
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ export const HeaderContainer = styled.div`
     img{
         width: 9.5rem;
     }
-    @media (min-width: 1024px) {
+    @media (min-width: 1440px) {
         width: 85.5rem;
         height: 8.3rem;
         margin-top: 2.2rem;
@@ -68,7 +68,7 @@ export const ButtonContainer = styled.div`
         position: right bottom;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1440px) {
         display: none;
 
         hr{
@@ -83,7 +83,7 @@ export const ButtonPagesDesktop = styled.div`
         display: none;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1440px) {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -105,8 +105,6 @@ export const ButtonPagesDesktop = styled.div`
             border-bottom: 1px solid #9F9F9F;
         }
     }
-
-    
     
 `
 // Estilização do Conteúdo principal da página 
@@ -133,7 +131,7 @@ export const BannerInicial = styled.section`
         font-weight: 300;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1440px) {
         margin-top: 7.9rem;
         height: 70rem;
         background-size: cover;
@@ -216,7 +214,7 @@ export const SobreInicial = styled.div`
         
    }
 
-   @media(min-width: 1024px){
+   @media(min-width: 1440px){
     
         width: 92%;
         flex-direction: row;
@@ -251,11 +249,59 @@ export const SobreInicial = styled.div`
 export const ImagensSobre = styled.div`
     display: none;
 
-    @media(min-width: 1024px){
+    @media(min-width: 1440px){
         display: flex;
         flex-direction: column;
         gap: 4.8rem;
         margin-left: 4.0rem;
     }
 `
+export const NossaMissaoContainer = styled.section`
 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 7.5rem;
+    color: #BDBDBD;
+
+    font-size: 14svw;
+    
+    h2{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+    }
+
+    div{
+
+        width: 83%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        
+
+        gap: 3rem;
+
+        h2{
+            font-size: 20rem;
+            color: #707070;
+            font-family: "Roboto", sans-serif;
+            font-weight: bolder;
+        }
+
+        p{
+            font-size: 1.5rem;
+            text-align: justify;
+            white-space: 1rem;
+            line-height: 3.6rem;
+            font-family: "Arimo", sans-serif;
+
+        }
+    }
+
+`
