@@ -110,7 +110,7 @@ export const ButtonPagesDesktop = styled.div`
 // Estilização do Conteúdo principal da página 
 
 export const BannerInicial = styled.section`
-    background-image: url(../public/FolhasBanner.svg);
+    background-image: url(/FolhasBanner.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
