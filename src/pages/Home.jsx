@@ -68,19 +68,24 @@ export function Home() {
 
           <h2>Nossa missão</h2>
 
-          <div>
+          <section>
 
-            <h2>1</h2>
-            <p>Facilitar o trabalho dos agricultores e permitir o cultivo de vegetais dentro da sua casa.</p>
+            <div>
 
-          </div>
+              <h2>1</h2>
+              <p>Facilitar o trabalho dos agricultores e permitir o cultivo de vegetais dentro da sua casa.</p>
 
-          <div> 
+            </div>
 
-            <p>Ajudar na diminuição da poluição, incentivando o plantio e diminuindo os gastos de água e tempo. </p>
-            <h2>2</h2>
+            <div id="div_inversa"> 
 
-          </div>
+              <p>Ajudar na diminuição da poluição, incentivando o plantio e diminuindo os gastos de água e tempo. </p>
+              <h2>2</h2>
+
+            </div>
+
+          </section>
+          
 
         </NossaMissaoContainer>
 

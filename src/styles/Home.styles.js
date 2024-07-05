@@ -268,11 +268,21 @@ export const NossaMissaoContainer = styled.section`
     margin-top: 7.5rem;
     color: #BDBDBD;
 
-    font-size: 14svw;
+    font-size: 6.4rem;
+    gap: 7.5rem;
     
     h2{
         font-family: "Roboto", sans-serif;
         font-weight: 300;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 7.5rem;
     }
 
     div{
@@ -302,6 +312,41 @@ export const NossaMissaoContainer = styled.section`
             font-family: "Arimo", sans-serif;
 
         }
+    }
+
+    @media(min-width: 1440px){
+        width: 92%;
+        background-color: #20483D;
+        border-radius: 1.5rem;
+        color: #fff;
+
+        h2{
+            margin-top: 4.8rem;
+        }
+
+        section{
+            width: 87%;
+            flex-direction: row;
+            gap: 9.8rem;
+            margin-bottom: 9.7rem;
+        }
+
+        #div_inversa{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        div{
+
+            h2{
+                color: #fff;
+            }
+            p{
+                font-size: 2.6rem;
+            }
+
+        }
+
     }
 
 `
