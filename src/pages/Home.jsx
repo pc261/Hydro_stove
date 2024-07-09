@@ -1,9 +1,10 @@
 import { Main } from "../styles/global.js";
 import { Header } from "../elements/Header.jsx";
-import { BannerInicial, SobreInicial, ImagensSobre, SobreContainer, NossaMissaoContainer } from "../styles/Home.styles.js";
+import { BannerInicial, SobreInicial, ImagensSobre, SobreContainer, NossaMissaoContainer, ImagensContainer } from "../styles/Home.styles.js";
 import ImagemTerra from "/ImagemTerra.svg";
 import ImagemCampos from "/ImagemCampos.svg"
 import ImagemPlantacao from "/ImagemPlantacao.svg"
+import ImagemDemonstrativa from "/ImagemDemonstrativa.png"
 
 
 
@@ -53,7 +54,7 @@ export function Home() {
                 <ul>
                   <li>De acordo com a ciência, 70% do consumo de água mundial é utilizado pela agricultura, e que como substrato à vida, a água não possui uma substituição.</li>
                   <li>A exigência mundial por água de boa qualidade, é maior do que a renovação do ciclo hidrológico.</li>
-                  <li>Até 2050, a população mundial atingira entre 7,5 e 10,5 bilhões, o que aumentara a demanda de água.</li>
+                  <li>Até 2050, a população mundial atingira entre 7,5 e 10,5 bilhões, o que aumentará a demanda de água.</li>
                   <li>A irrigação por  gotejamento é ideal, pois há uma grande economia de água, assim como uma alta eficiência de aplicação.</li>
                 </ul>
 
@@ -88,6 +89,25 @@ export function Home() {
           
 
         </NossaMissaoContainer>
+
+        <ImagensContainer>
+
+          <h2>Nosso Projeto</h2>
+
+          <div id="ImagensMobile">
+              <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
+              <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
+          </div>
+
+          <div id="ImagensDesktop">
+            <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
+            <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
+            <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
+          </div>
+
+          <a href="#">ver mais</a>
+
+        </ImagensContainer>
 
 
       </Main>

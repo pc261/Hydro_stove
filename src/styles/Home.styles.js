@@ -350,3 +350,103 @@ export const NossaMissaoContainer = styled.section`
     }
 
 `
+export const ImagensContainer = styled.section`
+    margin-top: 7.2rem;
+    margin-bottom: 9.2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        display: none;
+    }
+
+    #ImagensMobile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 2.7rem;
+        margin-bottom: 3.5rem;
+
+        img{
+            width: 83%;
+            height: 25.5rem;
+            border-radius: 1rem;
+        }
+    }
+
+    #ImagensDesktop{
+        display: none;
+    }
+
+    a{
+        width: 22.2rem;
+        height: 7.1rem;
+        border-radius: 1.5rem;
+        background-color: #20483D;
+
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+        color: #FFF;
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        letter-spacing: 0.5rem;
+    }
+
+    @media(min-width: 1024px){
+        
+        margin-bottom: 6.8rem;
+
+        h2{
+            width: 81%;
+            display: block;
+            margin-bottom: 6rem;
+
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            text-align: left;
+            color: #BDBDBD;
+            font-size: 6.4rem;
+        }
+
+        #ImagensMobile{
+            flex-direction: row;
+            width: 81%;
+            gap: 3rem;
+            margin-bottom: 3rem;
+
+            img{
+                width: 50%;
+                height: 25.5rem;
+            }
+        }
+
+        #ImagensDesktop{
+            width: 81%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12.4rem;
+
+            img{
+                width: 31%;
+                height: 25.5rem;
+                border-radius: 1rem;
+            }
+        }
+
+        a{
+            width: 42.4rem;
+            height: 13.7rem;
+            font-size: 2.4rem;
+        }
+    }
+`

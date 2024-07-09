@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background: black;
+        background-color: #0C0C0D;
         background-image: url("/Background_img.svg");
         background-repeat: no-repeat;
         background-position: right top;
