@@ -15,12 +15,12 @@ import {GlobalStyle} from "./styles/global.js"
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />, 
+    element: <Home />
   },
 
   {
     path: '/funcionamento',
-    element: <Funcionamento/>
+    element: <Funcionamento />
   }
 ])
 
