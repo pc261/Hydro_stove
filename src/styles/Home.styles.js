@@ -122,7 +122,7 @@ export const BannerInicial = styled.section`
         margin-top: 3.322rem;
         margin-left: 1.281rem;
         font-family: "Roboto", sans-serif;
-        font-size: 5.5em;
+        font-size: 5.5rem;
         color: #FFF;
     }
     div p{
@@ -419,18 +419,6 @@ export const ImagensContainer = styled.section`
         }
 
         #ImagensMobile{
-            flex-direction: row;
-            width: 81%;
-            gap: 3rem;
-            margin-bottom: 3rem;
-
-            img{
-                width: 50%;
-                height: 25.5rem;
-            }
-        }
-
-        #ImagensDesktop{
             width: 81%;
             display: flex;
             justify-content: space-between;
@@ -441,12 +429,6 @@ export const ImagensContainer = styled.section`
                 height: 25.5rem;
                 border-radius: 1rem;
             }
-        }
-
-        a{
-            width: 42.4rem;
-            height: 13.7rem;
-            font-size: 2.4rem;
         }
     }
 `

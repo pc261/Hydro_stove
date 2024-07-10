@@ -15,8 +15,8 @@ export function Header() {
 
             <ButtonPagesDesktop>
 
-                <a href="">Home</a>
-                <a href="">Funcionamento</a>
+                <a href="/">Home</a>
+                <a href="/funcionamento">Funcionamento</a>
                 <a href="">Materiais</a>
                 <a href="">Grupo</a>
                 <a href="">Bibliografia</a>

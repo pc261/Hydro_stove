@@ -3,15 +3,23 @@ import {ThemeProvider} from "styled-components"
 
 import {Home} from './pages/Home'
 import {theme} from "./styles/theme.js"
+import {Funcionamento} from "./pages/Funcionamento.jsx"
 
 import {GlobalStyle} from "./styles/global.js"
+
+
 
 
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />
+    element: <Home />, 
+  },
+
+  {
+    path: '/funcionamento',
+    element: <Funcionamento/>
   }
 ])
 
