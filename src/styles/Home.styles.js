@@ -421,6 +421,20 @@ export const ImagensContainer = styled.section`
         #ImagensMobile{
             width: 81%;
             display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 3rem;
+
+            img{
+                width: 48%;
+                height: 25.5rem;
+                border-radius: 1rem;
+            }
+        }
+
+        #ImagensDesktop{
+            width: 81%;
+            display: flex;
             justify-content: space-between;
             margin-bottom: 12.4rem;
 
@@ -429,6 +443,15 @@ export const ImagensContainer = styled.section`
                 height: 25.5rem;
                 border-radius: 1rem;
             }
+        }
+
+        a{
+            width: 42.4rem;
+            height: 13.7rem;
+            margin-bottom: 6.8rem;
+
+            font-size: 2.4rem;
+
         }
     }
 `
