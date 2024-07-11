@@ -18,7 +18,7 @@ export function Header() {
                 <a href="/">Home</a>
                 <a href="/funcionamento">Funcionamento</a>
                 <a href="">Materiais</a>
-                <a href="">Grupo</a>
+                <a href="/grupo">Grupo</a>
                 <a href="">Bibliografia</a>
 
             </ButtonPagesDesktop>

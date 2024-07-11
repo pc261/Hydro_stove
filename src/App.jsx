@@ -7,6 +7,7 @@ import {Funcionamento} from "./pages/Funcionamento"
 import {theme} from "./styles/theme.js"
 
 import {GlobalStyle} from "./styles/global.js"
+import {Grupo} from "./pages/Grupo.jsx"
 
 
 
@@ -19,8 +20,12 @@ const router = createBrowserRouter([
   },
 
   {
-    path: '/funcionamento',
+    path: 'funcionamento',
     element: <Funcionamento />
+  },
+  {
+    path: 'grupo',
+    element: <Grupo/>
   }
 ])
 

@@ -1,0 +1,39 @@
+import { Header } from "../elements/Header";
+import { Main } from "../styles/global";
+import { Integrante, LetreiroCentral } from "../styles/Grupo.styles";
+import Felipe from "/felipe.png";
+import Igor from "/Igor.png"
+import Gerard from "/Gerard.png"
+import Joao from "/João_Lucas.png"
+
+export function Grupo() {
+  return (<>
+    <Header/>
+
+    <Main>
+        <LetreiroCentral>
+            <h1>Grupo</h1>
+        </LetreiroCentral>
+
+        <Integrante>
+            <div class="esquerda">
+                <img src={Felipe} alt="Foto do Felipe" />
+                <p><strong>Felipe Lira</strong> é o líder da equipe de desenvolvedores, responsável pela elaboração da ideia do projeto da EcoStove, programador, designer e sócio proprietário do projeto.</p>
+            </div>
+            <div class="direita">
+                <p><strong>Igor Miguel</strong> é o responsável pela unidade de tratamento de água, elaboração da ideia do projeto da EcoStove, programador, designer e sócio proprietário do projeto.</p>
+                <img src={Igor} alt="Foto do Igor" />
+            </div>
+            <div class="esquerda">
+                <img src={Gerard} alt="Foto do Gerard" />
+                <p><strong>Gerard Mourão</strong> é o líder da equipe de desenvolvimento do jogo, programador, designer e sócio proprietário do projeto.</p>
+            </div>
+            <div class="direita">
+                <p> <strong>João Lucas</strong> é o supervisor de qualidade e excelência, programador, designer e sócio proprietário do projeto.</p>
+                <img src={Joao} alt="Foto do João" />
+            </div>
+        </Integrante>
+    </Main>
+    </>
+  )
+}
