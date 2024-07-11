@@ -25,11 +25,11 @@ export function Funcionamento() {
 
         <Utilizacao>
 
-            <p className="primeiro">Como utilizar a estufa:</p>
+            <p className="TextoCentralizado">Como utilizar a estufa:</p>
 
             <p>Para utilizar a estufa é necessário instalar o nosso aplicativo (“LINK DO APLICATIVO”). Nele, você vai conseguir conectar o seu celular à estufa, assim podendo receber informações em tempo real e enviar comandos à estufa. Funções como: tempo de ativação do sistema de irrigação, tempo de ligar e desligar as luzes da estufa, ligar e desligar o tratamento de água e além disso é possível receber informações como a umidade do solo, tudo isso na palma da sua mão, deseja aprender a utilizar esse aplicativo? </p>
 
-            <p className="ultimo">Veja o vídeo a seguir:</p>
+            <p className="TextoCentralizado">Veja o vídeo a seguir:</p>
             
         </Utilizacao>
 
@@ -44,13 +44,13 @@ export function Funcionamento() {
           <h2>Projeto</h2>
 
           <div>
-            <img className="imagem-mobile" src={ImagemDemonstrativa} alt="foto do...." />
+            <img src={ImagemDemonstrativa} alt="foto do...." />
             <p>Data: xx/xx/xxxx</p>
           </div>
 
           <div>
             <p>Data: xx/xx/xxxx</p>
-            <img className="imagem-mobile" src={ImagemDemonstrativa} alt="foto do...." />
+            <img src={ImagemDemonstrativa} alt="foto do...." />
           </div>
         </Fotos>
 
@@ -59,11 +59,13 @@ export function Funcionamento() {
           <h2>Projeto</h2>
 
           <p>Nossa estufa tem um sistema integrado de tratamento de água. Além disso, há a possibilidade do usuário de configurar a estufa para determinados tipos de plantas, fazendo com que seja mais fácil a integração da nossa estufa para o dia a dia dos nossos usuários.</p>
+          
+  
+          <img src={ImagemDemonstrativa} alt="" />
+          
         </Integracao>
 
-        <ImagemContainer>
-          <img src={ImagemDemonstrativa} alt="" />
-        </ImagemContainer>
+        
     </Main>
     </>
   )

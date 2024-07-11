@@ -9,7 +9,6 @@ export const LetreiroCentral = styled.section`
         margin-bottom: 5.8rem;
     }
 `
-
 export const Integrante = styled.section`
     width: 80%;
 

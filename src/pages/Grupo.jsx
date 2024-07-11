@@ -16,19 +16,19 @@ export function Grupo() {
         </LetreiroCentral>
 
         <Integrante>
-            <div class="esquerda">
+            <div className="esquerda">
                 <img src={Felipe} alt="Foto do Felipe" />
                 <p><strong>Felipe Lira</strong> é o líder da equipe de desenvolvedores, responsável pela elaboração da ideia do projeto da EcoStove, programador, designer e sócio proprietário do projeto.</p>
             </div>
-            <div class="direita">
+            <div className="direita">
                 <p><strong>Igor Miguel</strong> é o responsável pela unidade de tratamento de água, elaboração da ideia do projeto da EcoStove, programador, designer e sócio proprietário do projeto.</p>
                 <img src={Igor} alt="Foto do Igor" />
             </div>
-            <div class="esquerda">
+            <div className="esquerda">
                 <img src={Gerard} alt="Foto do Gerard" />
                 <p><strong>Gerard Mourão</strong> é o líder da equipe de desenvolvimento do jogo, programador, designer e sócio proprietário do projeto.</p>
             </div>
-            <div class="direita">
+            <div className="direita">
                 <p> <strong>João Lucas</strong> é o supervisor de qualidade e excelência, programador, designer e sócio proprietário do projeto.</p>
                 <img src={Joao} alt="Foto do João" />
             </div>

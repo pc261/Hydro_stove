@@ -26,7 +26,7 @@ export const LetreiroInicial = styled.section`
     }
 
     @media (min-width: 1440px) {
-        width: 81%;
+        width: 85%;
         display: block;
 
         margin-top: 24.3rem;
@@ -56,7 +56,6 @@ export const ImagemContainer = styled.section`
         }
     }
 `
-
 export const Utilizacao = styled.section`  
     width: 84%;
     display: flex;
@@ -72,14 +71,8 @@ export const Utilizacao = styled.section`
     margin-top: 5.5rem;
     margin-bottom: 5.5rem;
 
-    .primeiro {
-    justify-content: center;
-    display: flex;
-    }
-
-    .ultimo {
-    justify-content: center;
-    display: flex;
+    .TextoCentralizado{
+        text-align: center;
     }
 
 
@@ -99,105 +92,144 @@ export const Utilizacao = styled.section`
 `
 
 export const Fotos = styled.section`
+
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8.9rem;
+
     h1 {
-        font-size: 6.4rem;
+        width: 100%;
+        font-size: 4.2rem;
         color: #BDBDBD;
         font-family: "Roboto", sans-serif;
         font-weight: 300;
-        margin-top: 2rem;
     }
 
     h2 {
-        font-size: 6.4rem;
+        width: 100%;
+        font-size: 4.2rem;
         color: #333333;
         font-family: "Roboto", sans-serif;
         font-weight: bold;
-        margin-bottom: 3rem;
+        margin-bottom: 4.4rem;
     }
 
     div {
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
+        gap: 2rem;
+        margin-bottom: 7.2rem;
+
+        img{
+            width: 17.8rem;
+            height: 16.5rem;
+            border-radius: 1rem;
+        }
     }
 
-    .imagem-mobile{
-        width: 11.12rem;
-        height: 10.31rem;
-        margin: 1rem 2rem 2rem 2rem;
-    }
 
     p{
         color: #BDBDBD;
-        font-size: 1.38rem;
+        font-size: 2.2rem;
         font-family: "Arimo", sans-serif;
     }
 
-    @media (min-width: 1440px) {
-        width: 81%;
-        display: block;
+    @media (min-width: 1024px) {
 
-        .imagem-mobile{
-        width: 31.44rem;
-        height: 27.31rem;
-        margin: 1rem 2rem 2rem 2rem;
+        width: 85%;
+
+        h2{
+            margin-bottom: 9.1rem;
+        }
+        
+        div{
+            justify-content: space-between;
+            margin-bottom: 13.2rem;
+        }
+
+        div img{
+            width: 50.3rem;
+            height: 43.7rem;
+            border-radius: 1rem;
         }
 
         p{
-            font-size: 4rem;
-            background-color: #20483D;
-            margin: 1rem;
-
-            padding-inline: 3.8rem;
-            padding-block: 1.4rem;
+            font-size: 6.4rem;
         }
     }
 `
 
 export const Integracao = styled.section`
-    width: 80%;
+
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     h1 {
-        font-size: 5.4rem;
+        font-size: 3.3rem;
         color: #BDBDBD;
         font-family: "Roboto", sans-serif;
         font-weight: 300;
-        margin-top: 2rem;
     }
 
     h2 {
-        font-size: 5.4rem;
+        font-size: 3.3rem;
         color: #333333;
         font-family: "Roboto", sans-serif;
         font-weight: bold;
-        margin-bottom: 3rem;
+        margin-bottom: 8.8rem;
     }
 
     p {
+        width: 100%;
+        text-align: justify;
         font-size: 1.5rem;
         color: #FFFFFF;
         font-family: "Arimo", sans-serif;
-        margin-bottom: 2rem;
+        margin-bottom: 8.7rem;
+        line-height: 2.5rem;
+    }
+
+    img{
+        height: 26.6rem;
+        margin-bottom: 8.7rem;
+        border-radius: 1rem;
     }
 
     @media (min-width: 1440px) {
-        width: 81%;
+        width: 85%;
         display: block;
 
-        .imagem-mobile{
-        width: 31.44rem;
-        height: 27.31rem;
-        margin: 1rem 2rem 2rem 2rem;
+        h1{
+            font-size: 6.4rem;
+        }
+
+        h2{
+            font-size: 6.4rem;
+            margin-bottom: 6rem;
+        }
+
+        img{
+            width: 100%;
+            height: 43.7rem;
+            border-radius: 1rem;
         }
 
         p{
+            width: 100%;
             font-size: 2.6rem;
+            line-height: 3.4rem;
             background-color: #20483D;
-            margin: 1rem;
             border-radius: 1rem;
-            padding-inline: 3.8rem;
-            padding-block: 1.4rem;
+            padding-inline: 3.3rem;
+            padding-block: 6.4rem;
+            margin-bottom: 3.9rem;
         }
     }
 `
