@@ -1,5 +1,6 @@
 import { Main } from "../styles/global.js";
 import { Header } from "../elements/Header.jsx";
+import { Footer } from "../elements/Footer.jsx";
 import { BannerInicial, SobreInicial, ImagensSobre, SobreContainer, NossaMissaoContainer, ImagensContainer } from "../styles/Home.styles.js";
 import ImagemTerra from "/ImagemTerra.svg";
 import ImagemCampos from "/ImagemCampos.svg"
@@ -13,6 +14,7 @@ export function Home() {
   return (
     <>
       <Header />
+      
       <Main>
 
         <BannerInicial>
@@ -111,6 +113,7 @@ export function Home() {
 
 
       </Main>
+      <Footer />
     </>
     
   )
