@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-
-
 // Estilização do header
 export const HeaderBox = styled.header`
     width: 100%;
@@ -36,7 +34,7 @@ export const HeaderContainer = styled.section`
 
 
 
-    @media (min-width: 1440px) {
+    @media (min-width: 1024px) {
         width: 85.5rem;
         height: 8.3rem;
         margin-top: 2.2rem;
@@ -73,7 +71,7 @@ export const ButtonContainer = styled.div`
         position: right bottom;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: 1024px) {
         display: none;
 
         hr{
@@ -88,7 +86,7 @@ export const ButtonPagesDesktop = styled.div`
         display: none;
     }
 
-    @media (min-width: 1440px) {
+    @media (min-width: 1024px) {
         display: flex;
         align-items: center;
         justify-content: center;

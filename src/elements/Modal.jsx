@@ -5,14 +5,14 @@ export function Modal({isOpen, setModalOpen}) {
         return (
             <>
             <Pop>
-                    <div>
-                        <a className='X' href="" onClick={setModalOpen}>X</a> 
-                        <a href="/" className='link'>Home</a>
-                        <a href="/materiais" className='link'>Materiais</a> 
-                        <a href="/grupo" className='link'>Grupo</a> 
-                        <a href="/funcionamento" className='link'>Funcionamento</a> 
-                        <a href="" className='link'>Bibliografia</a>
-                    </div>
+                <div>
+                    <a className='X' href="#" onClick={setModalOpen}>X</a> 
+                    <a href="/" className='link'>Home</a>
+                    <a href="/materiais" className='link'>Materiais</a> 
+                    <a href="grupo" className='link'>Grupo</a> 
+                    <a href="/funcionamento" className='link'>Funcionamento</a> 
+                    <a href="" className='link'>Bibliografia</a>
+                </div>
             </Pop>
             </>
           )

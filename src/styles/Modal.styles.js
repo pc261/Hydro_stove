@@ -2,9 +2,6 @@ import styled from "styled-components";
 
 export const Pop = styled.section`
 
-
-
-
     div {
         width: 15.6rem;
         height: 21.5rem;

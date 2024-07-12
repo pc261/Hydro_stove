@@ -21,7 +21,7 @@ export function Header() {
                 <a href="/">Home</a>
                 <a href="/funcionamento">Funcionamento</a>
                 <a href="/materiais">Materiais</a>
-                <a href="/grupo">Grupo</a>
+                <a href="grupo">Grupo</a>
                 <a href="">Bibliografia</a>
 
             </ButtonPagesDesktop>
