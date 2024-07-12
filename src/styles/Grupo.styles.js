@@ -24,7 +24,7 @@ export const Integrante = styled.section`
     p {
         color: #FFFFFF;
         font-family: "Arimo", sans-serif;
-        font-size: 1.5;
+        font-size: 1.5rem;
     }
 
     .esquerda {
@@ -55,9 +55,16 @@ export const Integrante = styled.section`
             font-size: 2.6rem;
         }
 
+        img {
+        width: 17.90rem;
+        height: 18rem;
+    }
+
         .esquerda {
             img{
                 margin-right: -5rem;
+                z-index: 1;
+
             }
         }
         .direita {

@@ -34,7 +34,7 @@ export const HeaderContainer = styled.section`
 
 
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1440px) {
         width: 85.5rem;
         height: 8.3rem;
         margin-top: 2.2rem;
