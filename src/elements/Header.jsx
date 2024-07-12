@@ -1,8 +1,12 @@
+import { useState } from "react";
 import { HeaderBox, HeaderContainer, ButtonContainer, ButtonPagesDesktop} from "../styles/Home.styles";
+import { Modal } from "./Modal";
 import IconLeaf from '/Ecostove.svg'
 
 export function Header() {
+  const  [openModal, setOpenModal] = useState(false)
   return (
+    <>
     <HeaderBox>
         <HeaderContainer >
 
@@ -14,10 +18,9 @@ export function Header() {
             </div>
 
             <ButtonPagesDesktop>
-
                 <a href="/">Home</a>
                 <a href="/funcionamento">Funcionamento</a>
-                <a href="">Materiais</a>
+                <a href="/materiais">Materiais</a>
                 <a href="/grupo">Grupo</a>
                 <a href="">Bibliografia</a>
 
@@ -25,16 +28,21 @@ export function Header() {
 
             <ButtonContainer>
 
-                <button>
+                <button onClick={() => setOpenModal(true)}>
                     <hr />
                     <hr />
                     <hr />
                 </button>
 
+
             </ButtonContainer>
+
+            
+            <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}/>
 
         </HeaderContainer>
     </HeaderBox>
+    </>
         
   )
 }

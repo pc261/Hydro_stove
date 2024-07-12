@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+
 // Estilização do header
 export const HeaderBox = styled.header`
     width: 100%;
@@ -31,6 +33,9 @@ export const HeaderContainer = styled.section`
     img{
         width: 9.5rem;
     }
+
+
+
     @media (min-width: 1440px) {
         width: 85.5rem;
         height: 8.3rem;
