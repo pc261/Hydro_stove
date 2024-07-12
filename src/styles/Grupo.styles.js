@@ -34,15 +34,13 @@ export const Integrante = styled.section`
         text-align: right;
     }
 
+    img {
+        width: 8.4rem;
+        height: 9.4rem;
+    }
+
     @media (min-width: 1440px) {
         width: 85%;
-
-        img{
-            width: 17.90rem;
-            height: 18rem;
-            z-index: 1;
-            border-radius: 30%;
-        }
 
         p{
             background-color: #20483D;
