@@ -4,15 +4,16 @@ export const Pop = styled.section`
 
     div {
         width: 15.6rem;
-        height: 21.5rem;
+        height: 22.5rem;
         flex-direction: column;
         gap: 2.3rem;
-        position: fixed;
+        position: absolute;
         top: 3%;
         right: 3%;
         z-index: 1;
         background-color: #212121;
         border-radius: .9rem;
+        padding-bottom: 1.2rem;
     }
 
 
