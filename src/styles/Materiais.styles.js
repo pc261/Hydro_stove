@@ -24,7 +24,7 @@ export const Letreiro = styled.section`
     }
 
     @media (min-width: 1440px) {
-        width: 85%;
+        width: 81%;
         display: block;
 
         margin-top: 24.3rem;
@@ -33,186 +33,144 @@ export const Letreiro = styled.section`
 `
 
 export const Pecas = styled.section `
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    width: 80%;
     display: flex;
-    margin-bottom: 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
 
-
-    img {
-        width: 80%;
-        margin-bottom: -.5rem;
-    }
-    .nome {
-        width: 80%;
-        background-color: #20483D;
-    }
-    h3{
-        color: #BDBDBD;
-        font-size: 3.6rem;
-        margin-bottom: 1.5rem;
-        margin-inline: .5rem;
-    }
-    .preco {
-        color: #BDBDBD;
-        font-size: 2rem;
-    }
-    .formatacao {
-        display: flex;
-        gap: 2.5rem;
-        width: 95%;        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .descricao{
-         width: 80%;
-         color: #FFFFFF;
-         font-size: 1.5rem;
-         font-family: "Arimo", sans-serif;
-         text-align: justify;
-         margin-inline: 3rem;
-    }
-    .botao{
-        background-color: #DADADA;
-        font-size: 1.2rem;
-        text-transform: uppercase;
-        letter-spacing: .15rem;
-        border: none;
-        width: 22.2rem;
-        height: 7.1rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
-        margin-inline: 3rem;
+    .Imagens{ 
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        width: 100%;
+        height: 15.6rem;
+        background-size: cover;
+        background-position: center;
     }
 
-    a{
-        text-decoration: none;
-        color: #333333;        
-        font-family: "Roboto", sans-serif;
+    #Imagem1{
+        background-image: url("/Arduino.png"); 
+    }
+    #Imagem2{
+        background-image: url("/ModuloWIFI.png"); 
+    }
+    #Imagem3{
+        background-image: url("/bomba.png");
     }
 
-    .precodesktop{
-        display: none;
-    }
-
-    .desktop {
-        width: 80%;
+    .Textos{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+        background-color: #20483D;
+        padding: 1.5rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
 
-    @media (min-width: 1440px) {
+        div{
+            display: flex;
             width: 100%;
-            margin-bottom: 4rem;
-
-        .nome {
-            width: 80%;
-            background-color: #20483D;
-            width: 117.0rem;
-            height: 43.5rem;
-        }
-
-
-        .desktop{
-            display: flex;
-            width: 80%;
-        }
-        .formatacao {
-            display: flex;
-            gap: 15rem;
-            width: 95%;
-            margin-top: 2rem;
             align-items: center;
-            justify-content: center;
-            margin-inline: 3rem;
-        }
-        h3{
+            justify-content: space-between;
             color: #BDBDBD;
-            font-size: 4rem;
-            margin-bottom: 1.5rem;
-            margin-inline: .5rem;
+            margin-bottom: 3.2rem;
+
+            h2{
+                font-size: 3.2rem;
+                font-family: 'Roboto', sans-serif;
+                font-weight: normal;
+            }
+
+            p{
+                font-size: 2rem;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                margin-left: 2rem;
+                margin-bottom: 0;
+            }
         }
-        .preco {
-            display: none;
-        }
-        .descricao{
-            width: 80%;
-            color: #FFFFFF;
+
+        p{
             font-size: 1.5rem;
-            font-family: "Arimo", sans-serif;
-            justify-content: center;
-            align-items: center;
+            font-family: 'Arimo', sans-serif;
+            line-height: 2.5rem;
+            color: #FFF;
             text-align: justify;
-            margin-inline: 3rem;
-            
-         }
-        .precodesktop{
-            width: 80%;
-            display: flex;
-            align-items: center;
-            justify-content: left;
-            font-size: 2.6rem;
-            color: #FFFFFF;
-            margin-inline: 3rem;
-            margin-top: 2rem;
+            margin-bottom: 3.4rem;
         }
-        .botao{
-            background-color: #DADADA;
-            font-size: 1.2rem;
-            text-transform: uppercase;
-            letter-spacing: .15rem;
-            border: none;
+
+        a{
             width: 22.2rem;
             height: 7.1rem;
-            margin-top: 3rem;
-            margin-bottom: 3rem;
+            background-color: #DADADA;
             display: flex;
-            align-items: center;
+            text-align: center;
             justify-content: center;
-            width: 80%;
-            margin-inline: 3rem;
+            align-items: center;
+            text-decoration: none;
+            border-radius: 1rem;
+
+            margin-bottom: .5rem;
+
+            p{
+                margin-bottom: 0;
+                margin-right: 3.3rem;
+                font-family: 'Roboto',sans-serif;
+                font-size: 1.2rem;
+                letter-spacing: 0.2rem;
+                text-transform: uppercase;
+                color: #333333;
+            }
+            
+        }
+    }
+
+    @media(min-width: 1024px){
+        flex-direction: row;
+        width: 81%;
+        .Imagens{
+            border-top-left-radius: 0rem;
+            border-top-right-radius: 0rem;
+            height: 43.3rem;
+        }
+
+        .Textos{
+            border-bottom-left-radius: 0rem;
+            border-bottom-right-radius: 0rem;
+            padding: 3rem;
+            align-items: start;
+
+            div{
+                flex-direction: column;
+                h2{
+                    width: 100%;
+                    font-size: 4rem;
+                    margin-bottom: 3.3rem;
+                }
+                p{
+                    width: 100%;
+                    margin-left: 0;
+                    font-size: 2.6rem;
+                    font-weight: normal;
+                }
+            }
+
+            p{
+                width: 40rem;
+            }
+
+            a{
+                p{
+                    width: auto;
+                }
+            }
         }
     }
 `
 
 export const BarraDeRolagem= styled.section `
 
-    .rolagem{
-        width: 70%;
-        display: flex;
-        gap: 2rem;
-        margin-bottom: 3rem;
-    }
-
-
-    h1{
-        color: #707070;
-        font-size: 2.4rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    h2{
-        color: #E0E0E0;
-        font-size: 2.4rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    h3{
-        color: #BDBDBD;
-        font-size: 2.4rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 `

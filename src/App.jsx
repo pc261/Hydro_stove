@@ -1,4 +1,4 @@
-import { createBrowserRouter, createRoutesFromChildren, RouterProvider } from "react-router-dom"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import {ThemeProvider} from "styled-components"
 
 import {Home} from './pages/Home'
@@ -14,24 +14,24 @@ import { Bibliografia } from "./pages/Bibliografia.jsx"
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home/>,
+    element: <Home/>
   },
-    {
-      path: '/funcionamento',
-      element: <Funcionamento />,
-    },
-    {
-      path: '/grupo',
-      element: <Grupo/>,
-    },
-    {
-      path: "/materiais",
-      element: <Materiais/>,
-    },
-    {
-      path: "/bibliografia",
-      element: <Bibliografia/>
-    }
+  {
+    path: '/funcionamento',
+    element: <Funcionamento />
+  },
+  {
+    path: '/grupo',
+    element: <Grupo/>
+  },
+  {
+    path: "/materiais",
+    element: <Materiais/>
+  },
+  {
+    path: "/bibliografia",
+    element: <Bibliografia/>
+  }
 ])
 
 export function App() {

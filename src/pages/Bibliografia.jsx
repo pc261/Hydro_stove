@@ -29,6 +29,8 @@ export function Bibliografia() {
             </div>
         </Referencia>
     </Main>
+
+    <Footer />
     </>
     
   )

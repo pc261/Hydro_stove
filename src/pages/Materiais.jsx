@@ -3,7 +3,9 @@ import { Main } from "../styles/global";
 import { Footer } from "../elements/Footer.jsx";
 import { BarraDeRolagem, Letreiro, Pecas } from "../styles/Materiais.styles";
 import arduino from "/Arduino.png"
+import Wifi from "/ModuloWIFI.png"
 import bomba from "/bomba.png"
+import Seta from "/SetaVermais.svg"
 import esquerda from "/setae.png"
 import direita from "/setad.png"
 
@@ -18,63 +20,70 @@ export function Materiais() {
             <h1>Peças</h1>
             <h2>Utilizadas</h2>
         </Letreiro>
-            <Pecas>
-                    <div className="desktop">
-                        <img src={arduino} alt="" />
-                        <div className="nome">
-                            <div className="formatacao">
-                                <h3>Arduino</h3>
-                                    <p className="preco">
-                                        Preço: R$ 200
-                                    </p>
-                            </div>
-                            <p className="descricao">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p>
-                            <p className="precodesktop">
-                            Preço: R$ 200
-                        </p>
-                            <div className="botao">
-                                <a href=""> Ver mais</a>
-                            </div>
-                        </div>
-                    </div>
-            </Pecas>
-            <Pecas>
-                <div className="desktop">
-                    <img src={bomba} alt="" />
-                    <div className="nome">
-                        <div className="formatacao">
-                            <h3>Bomba <br /> de Água</h3>
-                                <p className="preco">
-                                    Preço: R$ 200
-                                </p>
-                        </div>
-                        <p className="descricao">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
-                        <p className="precodesktop">
-                            Preço: R$ 200
-                        </p>
-                        <div className="botao">
-                            <a href=""> Ver mais</a>
-                        </div>
-                    </div>
-                </div>
-            </Pecas>
-        <BarraDeRolagem>
-            <div className="rolagem">
-                <h1>01</h1>
-                <h2>/</h2>
-                <h3>??</h3>
-                <a href=""> <img src={esquerda} alt="" /></a>
-                <a href=""> <img src={direita} alt="" /></a>
+
+        <Pecas>
+
+            <div className="Imagens" id="Imagem1">
             </div>
-        </BarraDeRolagem>
+
+            <div className="Textos">
+                <div>
+                    <h2>Arduino</h2>
+                    <p>Preço: R$200</p>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="">
+                    <p>Ver mais</p>
+                    <img src={Seta} alt="" />
+                </a>
+            </div>
+
+        </Pecas>
+
+        <Pecas>
+
+            <div className="Imagens" id="Imagem2">
+            </div>
+
+            <div className="Textos">
+                <div>
+                    <h2>Módulo WI-FI</h2>
+                    <p>Preço: R$200</p>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="">
+                    <p>Ver mais</p>
+                    <img src={Seta} alt="" />
+                </a>
+            </div>
+
+        </Pecas>
+
+        <Pecas>
+
+            <div className="Imagens" id="Imagem3">
+            </div>
+
+            <div className="Textos">
+                <div>
+                    <h2>Bomba de Água</h2>
+                    <p>Preço: R$200</p>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="">
+                    <p>Ver mais</p>
+                    <img src={Seta} alt="" />
+                </a>
+            </div>
+
+        </Pecas>
+
+        
 
     </Main>
     
     <Footer />
+
     </>
   )
 }

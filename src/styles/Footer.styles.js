@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.section`
-    background-color: black;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
 
     #Logo{
         width: 85%;
@@ -125,7 +125,7 @@ export const FooterBox = styled.div`
 
     @media(min-width: 1024px){
         flex-direction: row-reverse;
-        width: 62%;
+        width:  57.1rem;
         justify-content: center;
         align-items: first baseline;
         gap: 15%;
