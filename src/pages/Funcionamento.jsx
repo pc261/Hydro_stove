@@ -1,6 +1,7 @@
 import { Header } from "../elements/Header.jsx";
 import { Fotos, ImagemContainer, Integracao, LetreiroInicial, Utilizacao } from "../styles/Funcionamento.styles.js";
 import { Main } from "../styles/global.js";
+import { Footer } from "../elements/Footer.jsx";
 import ImagemDemonstrativa from "/ImagemDemonstrativa.png"
 
 export function Funcionamento() {
@@ -67,6 +68,7 @@ export function Funcionamento() {
 
         
     </Main>
+    <Footer />
     </>
   )
 }

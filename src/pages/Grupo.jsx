@@ -1,5 +1,6 @@
 import { Header } from "../elements/Header";
 import { Main } from "../styles/global";
+import { Footer } from "../elements/Footer.jsx";
 import { Integrante, LetreiroCentral } from "../styles/Grupo.styles";
 import Felipe from "/felipe.png";
 import Igor from "/Igor.png"
@@ -34,6 +35,7 @@ export function Grupo() {
             </div>
         </Integrante>
     </Main>
+    <Footer />
     </>
   )
 }

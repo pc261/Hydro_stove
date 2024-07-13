@@ -49,21 +49,23 @@ export function Footer() {
 
                     <p>Redes Sociais</p>
 
-                    <a href="#">
-                        <img src={Facebook} alt="" />
-                    </a>
+                    <div>
+                        <a href="#">
+                            <img src={Facebook} alt="" />
+                        </a>
 
-                    <a href="#">
-                        <img src={Twitter} alt="" />
-                    </a>
+                        <a href="#">
+                            <img src={Twitter} alt="" />
+                        </a>
 
-                    <a href="#">
-                        <img src={Instagram} alt="" />
-                    </a>
+                        <a href="#">
+                            <img src={Instagram} alt="" />
+                        </a>
 
-                    <a href="#">
-                        <img src={Whatsapp} alt="" />
-                    </a>
+                        <a href="#">
+                            <img src={Whatsapp} alt="" />
+                        </a>
+                    </div>
 
                 </div>
 

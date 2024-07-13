@@ -1,5 +1,6 @@
 import { Header } from "../elements/Header";
 import { Main } from "../styles/global";
+import { Footer } from "../elements/Footer.jsx";
 import { BarraDeRolagem, Letreiro, Pecas } from "../styles/Materiais.styles";
 import arduino from "/Arduino.png"
 import bomba from "/bomba.png"
@@ -72,6 +73,7 @@ export function Materiais() {
         </BarraDeRolagem>
 
     </Main>
+    <Footer />
     </>
   )
 }
