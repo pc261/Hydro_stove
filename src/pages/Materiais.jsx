@@ -73,6 +73,7 @@ export function Materiais() {
         </BarraDeRolagem>
 
     </Main>
+    
     <Footer />
     </>
   )

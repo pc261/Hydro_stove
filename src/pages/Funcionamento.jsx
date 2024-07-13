@@ -65,9 +65,9 @@ export function Funcionamento() {
           <img src={ImagemDemonstrativa} alt="" />
           
         </Integracao>
-
         
     </Main>
+
     <Footer />
     </>
   )
