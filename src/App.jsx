@@ -9,6 +9,7 @@ import {theme} from "./styles/theme.js"
 import {GlobalStyle} from "./styles/global.js"
 import {Grupo} from "./pages/Grupo.jsx"
 import { Materiais } from "./pages/Materiais.jsx"
+import { Bibliografia } from "./pages/Bibliografia.jsx"
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,11 @@ const router = createBrowserRouter([
     },
     {
       path: "/materiais",
-      element: <Materiais/>
+      element: <Materiais/>,
+    },
+    {
+      path: "/bibliografia",
+      element: <Bibliografia/>
     }
 ])
 
