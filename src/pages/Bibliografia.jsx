@@ -2,8 +2,9 @@
 
 import { Footer } from "../elements/Footer";
 import { Header } from "../elements/Header";
-import { Letreiroo, Referencia } from "../styles/Bibliografia.styles";
+import { Letreiro, Referencia } from "../styles/Bibliografia.styles";
 import { Main } from "../styles/global";
+import Seta from "/SetaVermais.svg"
 
 
 export function Bibliografia() {
@@ -12,22 +13,52 @@ export function Bibliografia() {
     <Header/>
 
     <Main>
-        <Letreiroo>
+
+        <Letreiro>
             <h1>Bibliografia</h1>
             <h2>Do Projeto</h2>
-        </Letreiroo>
-
+        </Letreiro>
 
         <Referencia>
-            <div className="card">
-                <h1 className="nome">Link</h1>
-                <a href="" className="button">Ver Mais</a>
+
+            <div>
+                <h1>Link</h1>
+                <a href="">
+                    <p>Ver mais</p>
+                    <img src={Seta} alt="" />
+                </a>
             </div>
-            <div className="card">
-                <h1 className="nome">Link</h1>
-                <a href="" className="button">Ver Mais</a>
+
+            <div>
+                <h1>Link</h1>
+                <a href="">
+                    <p>Ver mais</p>
+                    <img src={Seta} alt="" />
+                </a>
             </div>
+
         </Referencia>
+
+        <Referencia>
+
+            <div>
+                <h1>Link</h1>
+                <a href="">
+                    <p>Ver mais</p>
+                    <img src={Seta} alt="" />
+                </a>
+            </div>
+
+            <div>
+                <h1>Link</h1>
+                <a href="">
+                    <p>Ver mais</p>
+                    <img src={Seta} alt="" />
+                </a>
+            </div>
+
+        </Referencia>
+        
     </Main>
 
     <Footer />

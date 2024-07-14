@@ -170,7 +170,3 @@ export const Pecas = styled.section `
         }
     }
 `
-
-export const BarraDeRolagem= styled.section `
-
-`
