@@ -76,13 +76,13 @@ export function Home() {
             <div>
 
               <h2>1</h2>
-              <p>Facilitar o trabalho dos agricultores e permitir o cultivo de vegetais dentro da sua casa.</p>
+              <p>Facilitar o tratamento de água, diminuindo os custos e sendo de mais fácil acesso.</p>
 
             </div>
 
             <div id="div_inversa"> 
 
-              <p>Ajudar na diminuição da poluição, incentivando o plantio e diminuindo os gastos de água e tempo. </p>
+              <p>Cultivar plantas e alimentos com uma maior praticidade e eficácia.</p>
               <h2>2</h2>
 
             </div>
