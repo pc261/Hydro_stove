@@ -154,6 +154,55 @@ export const SobreContainer  = styled.section`
    width: 100%;
    margin-top: 7.6rem;
 `
+
+export const Slide = styled.div`
+    width: 81svw;
+    border-radius: 1.5rem;
+    background-color: #20483D;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        color: #BDBDBD;
+        padding: 2rem;
+        font-size: 4.2rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+    }
+    .paragrafo{
+        color: #FFFF;
+        display: flex;
+        align-content: center;
+        text-align: justify;
+        font-family: "Arimo", sans-serif;
+        font-size: 1.5rem;
+        width: 85%;
+        line-height: 3rem;
+        padding-block: 2rem;
+    }
+    .paragrafos{
+        color: #FFFF;
+        flex-direction: column;
+        align-content: center;
+        text-align: justify;
+        font-family: "Arimo", sans-serif;
+        font-size: 1.5rem;
+        width: 85%;
+        line-height: 3rem;
+        padding-block: 2rem;
+    }
+    .estacao{
+        width: 85%;
+    }
+    .terra{
+        width: 85%;
+    }
+`
+
 export const SobreInicial = styled.div`
 
     width: 81svw;
@@ -171,9 +220,12 @@ export const SobreInicial = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
 
         margin-bottom: 4.3rem;
+    }
+
+    .titulo{
+        width: 100%;
     }
    
 
@@ -251,46 +303,12 @@ export const SobreInicial = styled.div`
    }
 `
 
-export const Slide = styled.div`
-    width: 81svw;
-    border-radius: 1.5rem;
-    background-color: #20483D;
-    margin-top: 5rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    h1{
-        color: #BDBDBD;
-        padding: 2rem;
-        font-size: 4.2rem;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-    }
-    .paragrafo{
-        color: #FFFF;
-        display: flex;
-        align-content: center;
-        text-align: justify;
-        font-family: "Arimo", sans-serif;
-        font-size: 1.5rem;
-        width: 85%;
-        line-height: 3rem;
-        padding-block: 2rem;
-    }
-    .estacao{
-        width: 85%;
-    }
-`
 
 export const ImagensSobre = styled.div`
     display: none;
 
     @media(min-width: 1440px){
         display: flex;
-        flex-direction: column;
         gap: 4.8rem;
         margin-left: 4.0rem;
     }

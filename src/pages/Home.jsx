@@ -8,8 +8,6 @@ import ImagemPlantacao from "/ImagemPlantacao.svg"
 import ImagemDemonstrativa from "/ImagemDemonstrativa.png"
 import Estacao from "/estação1.png"
 import Estufa from "/estufa.png"
-import Esquerda from "/setaEsquerda.png"
-import Direita from "/setaDireita.png"
 
 
 
@@ -56,41 +54,34 @@ export function Home() {
           </div>
         </Slide>
 
-        <SobreContainer>
+        <Slide>
+          <h1>
+            Sobre
+          </h1>
+          <div className="imagens"></div>
+          <img className="terra" src={ImagemTerra} alt="" />
+          <div className="paragrafos">
+            <p>
+              Como sabemos, a água é indispensável para a vida. Visto isso, podemos comprovar essa afirmação com os tópicos abaixo:
+            </p>
 
-          <SobreInicial>
-            
-              <ImagensSobre>
+            <ul>
+              <p>
+                ► De acordo com a ciência, 70% do consumo de água mundial é utilizado pela agricultura, e que como substrato à vida, a água não possui uma substituição.
+              </p>
+              <p>
+                ► A exigência mundial por água de boa qualidade, é maior do que a renovação do ciclo hidrológico.
+              </p>
+              <p>
+                ► Até 2050, a população mundial atingira entre 7,5 e 10,5 bilhões, o que aumentara a demanda de água.
+              </p>
+              <p>
+                ► A irrigação por  gotejamento é ideal, pois há uma grande economia de água, assim como uma alta eficiência de aplicação.
+              </p> 
+            </ul>
+          </div>
+        </Slide>
 
-                <img src={ImagemTerra} alt="Imagem do solo sendo regado" />
-                <img src={ImagemCampos} alt="Imagem de um campo agrícola sendo regado" />
-
-              </ImagensSobre>
-
-              <ImagensSobre>
-
-                <img src={ImagemPlantacao} alt="" />
-
-              </ImagensSobre>
-
-              <div id="textos">
-
-                <h2>Sobre</h2>
-                <p>Como sabemos, a água é indispensável para a vida. Visto isso, podemos comprovar essa afirmação com os tópicos abaixo:
-                </p>
-
-                <ul>
-                  <li>De acordo com a ciência, 70% do consumo de água mundial é utilizado pela agricultura, e que como substrato à vida, a água não possui uma substituição.</li>
-                  <li>A exigência mundial por água de boa qualidade, é maior do que a renovação do ciclo hidrológico.</li>
-                  <li>Até 2050, a população mundial atingira entre 7,5 e 10,5 bilhões, o que aumentará a demanda de água.</li>
-                  <li>A irrigação por  gotejamento é ideal, pois há uma grande economia de água, assim como uma alta eficiência de aplicação.</li>
-                </ul>
-
-              </div>
-              
-          </SobreInicial>
-
-        </SobreContainer>
 
 
         <NossaMissaoContainer>
