@@ -147,6 +147,7 @@ export const BannerInicial = styled.section`
         }
     }
 `
+
 export const SobreContainer  = styled.section`
    display: flex;
    justify-content: center;
@@ -249,6 +250,57 @@ export const SobreInicial = styled.div`
         }
    }
 `
+
+export const Slide = styled.div`
+    width: 81svw;
+    border-radius: 1.5rem;
+    background-color: #20483D;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        color: #BDBDBD;
+        padding: 2rem;
+        font-size: 4.2rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+    }
+    .paragrafo{
+        color: #FFFF;
+        display: flex;
+        align-content: center;
+        text-align: justify;
+        font-family: "Arimo", sans-serif;
+        font-size: 1.5rem;
+        width: 85%;
+        line-height: 3rem;
+        padding-block: 2rem;
+    }
+    .estacao{
+        width: 85%;
+    }
+    .botoes > button{
+        width: 14.75rem;
+        height: 5.9rem; 
+        gap: 2rem;
+        border-radius: 1rem;
+        border: none;
+    }
+    .botoes {
+        margin-bottom: 3rem;
+        width: 85%;
+        display: flex;
+        gap: calc(100% - 29.5rem);
+    }
+    img{
+        z-index: 1;
+    }
+`
+
 export const ImagensSobre = styled.div`
     display: none;
 
