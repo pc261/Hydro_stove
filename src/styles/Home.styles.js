@@ -283,22 +283,6 @@ export const Slide = styled.div`
     .estacao{
         width: 85%;
     }
-    .botoes > button{
-        width: 14.75rem;
-        height: 5.9rem; 
-        gap: 2rem;
-        border-radius: 1rem;
-        border: none;
-    }
-    .botoes {
-        margin-bottom: 3rem;
-        width: 85%;
-        display: flex;
-        gap: calc(100% - 29.5rem);
-    }
-    img{
-        z-index: 1;
-    }
 `
 
 export const ImagensSobre = styled.div`

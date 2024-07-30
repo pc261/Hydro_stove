@@ -43,10 +43,6 @@ export function Home() {
               O Projeto da Estação de Tratamento de Água (ETA) é uma iniciativa fundamental para garantir o acesso à água limpa. A principal finalidade desse projeto é tratar a água bruta proveniente de fontes de abastecimento, como rios, lagos ou lençóis freáticos, a fim de remover contaminantes químicos, tornando-a adequada para a utilização na agricultura.
             </p>
           </div>
-          <div className="botoes">
-            <button><img src={Esquerda} alt="" /></button>
-            <button><img src={Direita} alt="" /></button>
-          </div>
         </Slide>
 
         <Slide>
@@ -57,10 +53,6 @@ export function Home() {
           <div className="paragrafo">
             <p>Para fazer uma integração ccom a E.T.A.,  teremos também uma estufa para cultivo de plantas e alimentos.<br />Uma estufa é uma estrutura transparente, geralmente feita de vidro ou plástico, projetada para cultivar plantas em condições controladas. Ela mantém uma temperatura interna mais alta do que a externa, criando um microclima ideal para o crescimento das plantas. As estufas permitem o controle da umidade, beneficiando o desenvolvimento das plantas. Além disso, possibilitam o cultivo durante todo o ano, independentemente das estações, e oferecem maior controle sobre pragas e doenças. Estufas também são úteis para o cultivo de plantas exóticas, proporcionando um ambiente adequado para seu crescimento, sendo uma ferramenta valiosa tanto para jardineiros amadores quanto para produtores agrícolas comerciais.
             </p>
-          </div>
-          <div className="botoes">
-            <button><img src={Esquerda} alt="" /></button>
-            <button><img src={Direita} alt="" /></button>
           </div>
         </Slide>
 
