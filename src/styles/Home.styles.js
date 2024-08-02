@@ -113,7 +113,7 @@ export const ButtonPagesDesktop = styled.div`
 // Estilização do Conteúdo principal da página 
 
 export const BannerInicial = styled.section`
-    background-image: url(/sustentabilidade.webp);
+    background-image: url(/sustentabilidade.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
