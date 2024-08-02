@@ -24,7 +24,7 @@ export function Footer() {
                     <div>
 
                         <img src={Localizacao} alt="" />
-                        <a href="#">Rua Doutor Luiz Hoppe 34 São Paulo, Capão Redondo</a>
+                        <a href="#">Rua Doutor Luiz Hoppe 34, São Paulo, Capão Redondo</a>
 
                     </div>
 
@@ -32,7 +32,6 @@ export function Footer() {
 
                         <img src={Telefone} alt="" />
                         <a href="#">(11) 94609-4905</a>
-
                     </div>
 
                             

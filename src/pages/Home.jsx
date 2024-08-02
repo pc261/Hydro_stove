@@ -5,7 +5,9 @@ import { BannerInicial, SobreInicial, ImagensSobre, SobreContainer, NossaMissaoC
 import ImagemTerra from "/ImagemTerra.svg";
 import ImagemDemonstrativa from "/ImagemDemonstrativa.png"
 import Estacao from "/estação1.png"
+import Estacao2 from "/estação2.png"
 import Estufa from "/estufa1.png"
+import Estufa2 from "/estufa2.png"
 
 
 
@@ -35,8 +37,8 @@ export function Home() {
           </h1>
           <img className="estacao" src={Estacao} alt="" />
           <div className="paragrafo">
-            <p>Nosso protótipo é composto por uma E.T.A. que, tanto a longo prazo, quanto a curto prazo trará benefícios, tais como aeconomia   d’água e a facilidade de cultivo aos agricultores e pequenos produtores. Abaixo, falaremos mais sobre ela: <br />
-              O Projeto da Estação de Tratamento de Água (ETA) é uma iniciativa fundamental para garantir o acesso à água limpa. A principal finalidade desse projeto é tratar a água bruta proveniente de fontes de abastecimento, como rios, lagos ou lençóis freáticos, a fim de remover contaminantes químicos, tornando-a adequada para a utilização na agricultura.
+            <p>Nosso protótipo é composto por uma E.T.A. que, tanto a longo prazo, quanto a curto prazo trará benefícios, tais como a economia   de água e a facilidade de cultivo aos agricultores e pequenos produtores. Abaixo, falaremos mais sobre ela: <br />
+              O Projeto da Estação de Tratamento de Água (E.T.A.) é uma iniciativa fundamental para garantir o acesso à água limpa. A principal finalidade desse projeto é tratar a água bruta proveniente de fontes de abastecimento, como rios, lagos ou lençóis freáticos, com finalidade de remover contaminantes químicos, tornando-a adequada para a utilização na agricultura.
             </p>
           </div>
         </Slide>
@@ -47,7 +49,7 @@ export function Home() {
           </h1>
           <img className="estacao" src={Estufa} alt="" />
           <div className="paragrafo">
-            <p>Para fazer uma integração ccom a E.T.A.,  teremos também uma estufa para cultivo de plantas e alimentos.<br />Uma estufa é uma estrutura transparente, geralmente feita de vidro ou plástico, projetada para cultivar plantas em condições controladas. Ela mantém uma temperatura interna mais alta do que a externa, criando um microclima ideal para o crescimento das plantas. As estufas permitem o controle da umidade, beneficiando o desenvolvimento das plantas. Além disso, possibilitam o cultivo durante todo o ano, independentemente das estações, e oferecem maior controle sobre pragas e doenças. Estufas também são úteis para o cultivo de plantas exóticas, proporcionando um ambiente adequado para seu crescimento, sendo uma ferramenta valiosa tanto para jardineiros amadores quanto para produtores agrícolas comerciais.
+            <p>Para fazer uma integração com a E.T.A.,  teremos também uma estufa para cultivo de plantas e alimentos.<br />Uma estufa é uma estrutura transparente, geralmente feita de vidro ou plástico, projetada para cultivar plantas em condições controladas. Ela mantém uma temperatura interna mais alta do que a externa, criando um microclima ideal para o crescimento das plantas. As estufas permitem o controle da umidade, beneficiando o desenvolvimento das plantas. Além disso, possibilitam o cultivo durante todo o ano, independentemente das estações, e oferecem maior controle sobre pragas e doenças. Estufas também são úteis para o cultivo de plantas exóticas, proporcionando um ambiente adequado para seu crescimento, sendo uma ferramenta valiosa tanto para jardineiros amadores quanto para produtores agrícolas comerciais.
             </p>
           </div>
         </Slide>

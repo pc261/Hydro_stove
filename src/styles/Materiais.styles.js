@@ -53,11 +53,24 @@ export const Pecas = styled.section `
         background-image: url("/Arduino.png"); 
     }
     #Imagem2{
-        background-image: url("/ModuloWIFI.png"); 
+        background-image: url("/sensordeumidade.png"); 
     }
     #Imagem3{
         background-image: url("/bomba.png");
     }
+    #Imagem4{
+        background-image: url("/protobord.png");
+    }
+    #Imagem5{
+        background-image: url("/jumpers.png");
+    }
+    #Imagem6{
+        background-image: url("/rele.png");
+    }
+    #Imagem7{
+        background-image: url("/chuva.png");
+    }
+
 
     .Textos{
         width: 100%;
@@ -138,6 +151,7 @@ export const Pecas = styled.section `
         }
 
         .Textos{
+            height: 43.5rem;
             border-bottom-left-radius: 0rem;
             border-bottom-right-radius: 0rem;
             padding: 3rem;
@@ -159,7 +173,7 @@ export const Pecas = styled.section `
             }
 
             p{
-                width: 40rem;
+                width: 40svw;
             }
 
             a{
