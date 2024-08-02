@@ -39,7 +39,7 @@ export function Footer() {
                     <div>
 
                         <img src={Email} alt="" />
-                        <a href="#">ecostove@gmail.com</a>
+                        <a href="#">hydrostove@gmail.com</a>
 
                     </div>
                         
@@ -88,7 +88,7 @@ export function Footer() {
         
         <div id="Logo">
             <img src={IconLeaf} alt="" />
-            <p>EcoStove</p>
+            <p>HydroStove</p>
         </div>
 
     </FooterContainer>

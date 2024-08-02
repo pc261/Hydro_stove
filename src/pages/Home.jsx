@@ -3,11 +3,9 @@ import { Header } from "../elements/Header.jsx";
 import { Footer } from "../elements/Footer.jsx";
 import { BannerInicial, SobreInicial, ImagensSobre, SobreContainer, NossaMissaoContainer, ImagensContainer, Slide} from "../styles/Home.styles.js";
 import ImagemTerra from "/ImagemTerra.svg";
-import ImagemCampos from "/ImagemCampos.svg"
-import ImagemPlantacao from "/ImagemPlantacao.svg"
 import ImagemDemonstrativa from "/ImagemDemonstrativa.png"
 import Estacao from "/estação1.png"
-import Estufa from "/estufa.png"
+import Estufa from "/estufa1.png"
 
 
 
@@ -23,7 +21,7 @@ export function Home() {
 
           <div>
 
-            <h3>Eco</h3>
+            <h3>Hydro</h3>
             <hr />
             <p>stove</p>
 
@@ -77,7 +75,7 @@ export function Home() {
               </p>
               <p>
                 ► A irrigação por  gotejamento é ideal, pois há uma grande economia de água, assim como uma alta eficiência de aplicação.
-              </p> 
+              </p>
             </ul>
           </div>
         </Slide>

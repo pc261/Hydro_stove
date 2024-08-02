@@ -13,7 +13,7 @@ export function Header() {
             <div>
 
                 <img src={IconLeaf} alt="icone de folha" />
-                <p>EcoStove</p>
+                <p>HydroStove</p>
 
             </div>
 
