@@ -26,7 +26,7 @@ export function Home() {
 
             <h3>Hydro</h3>
             <hr />
-            <p>stove</p>
+            <p>Stove</p>
 
           </div>
 
@@ -110,7 +110,7 @@ export function Home() {
 
         <NossaMissaoContainer>
 
-          <h2>Nosso Objetivo</h2>
+          <h2>Nossos Objetivos</h2>
 
           <section>
 

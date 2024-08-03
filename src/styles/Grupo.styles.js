@@ -24,7 +24,7 @@ export const Integrante = styled.section`
     p {
         color: #FFFFFF;
         font-family: "Arimo", sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .esquerda {
@@ -35,8 +35,7 @@ export const Integrante = styled.section`
     }
 
     img {
-        width: 8.4rem;
-        height: 9.4rem;
+        width: 9rem;
     }
 
     @media (min-width: 1440px) {
@@ -57,19 +56,22 @@ export const Integrante = styled.section`
         }
 
         img {
-        width: 17.90rem;
-        height: 18rem;
+        width: 18rem;
     }
 
         .esquerda {
             img{
                 margin-right: -6rem;
                 z-index: 1;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
             }
         }
         .direita {
             img{
                 margin-left: -6rem;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
             }
             text-align: left;
         }

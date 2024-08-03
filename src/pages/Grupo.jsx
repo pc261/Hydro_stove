@@ -2,10 +2,10 @@ import { Header } from "../elements/Header";
 import { Main } from "../styles/global";
 import { Footer } from "../elements/Footer.jsx";
 import { Integrante, LetreiroCentral } from "../styles/Grupo.styles";
-import Felipe from "/felipe.png";
-import Igor from "/Igor.png"
-import Gerard from "/Gerard.png"
-import Joao from "/João_Lucas.png"
+import Felipe from "/Felipe.jpeg";
+import Igor from "/Igor.jpeg"
+import Gerard from "/Gerard.jpeg"
+import Joao from "/JL.jpeg"
 
 export function Grupo() {
   return (<>
@@ -19,10 +19,10 @@ export function Grupo() {
         <Integrante>
             <div className="esquerda">
                 <img src={Felipe} alt="Foto do Felipe" />
-                <p><strong>Felipe Lira</strong> é o líder da equipe de desenvolvedores, responsável pela elaboração da ideia do projeto da EcoStove, programador, designer e sócio proprietário do projeto.</p>
+                <p> <strong>Felipe Lira</strong> é o líder da equipe de desenvolvedores, responsável pela elaboração da ideia do projeto da HydroStove, programador, designer e sócio proprietário do projeto.</p>
             </div>
             <div className="direita">
-                <p><strong>Igor Miguel</strong> é o responsável pela unidade de tratamento de água, elaboração da ideia do projeto da EcoStove, programador, designer e sócio proprietário do projeto.</p>
+                <p> <strong>Igor Miguel</strong> é o responsável pela unidade de tratamento de água, elaboração da ideia do projeto da HydroStove, programador, designer e sócio proprietário do projeto.</p>
                 <img src={Igor} alt="Foto do Igor" />
             </div>
             <div className="esquerda">
