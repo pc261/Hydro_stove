@@ -171,7 +171,7 @@ export const Slide = styled.div`
         padding: 2rem;
         font-size: 4.2rem;
         font-family: "Roboto", sans-serif;
-        font-weight: 300;
+        font-weight: 700;
     }
     .paragrafo{
         color: #FFFF;
@@ -179,10 +179,12 @@ export const Slide = styled.div`
         align-content: center;
         text-align: justify;
         font-family: "Arimo", sans-serif;
-        font-size: 1.5rem;
+        font-size: 2.6rem;
         width: 85%;
         line-height: 3rem;
         padding-block: 2rem;
+        flex-direction: column;
+        gap: 3rem;
     }
     .paragrafos{
         color: #FFFF;
@@ -190,7 +192,7 @@ export const Slide = styled.div`
         align-content: center;
         text-align: justify;
         font-family: "Arimo", sans-serif;
-        font-size: 1.5rem;
+        font-size: 2.6rem;
         width: 85%;
         line-height: 3rem;
         padding-block: 2rem;
@@ -198,8 +200,30 @@ export const Slide = styled.div`
     .estacao{
         width: 85%;
     }
+    .estacao2{
+        display: none;
+    }
     .terra{
         width: 85%;
+    }
+    .desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media(min-width: 1440px){
+        display: flex;
+        .desktop {
+            flex-direction: row;
+            padding: 3rem;
+            gap: 2rem;
+        }
+        .estacao{
+            width: 65.2rem;
+            height: 29.7rem;
+            margin-bottom: 1rem;
+        }
     }
 `
 
@@ -372,7 +396,7 @@ export const NossaMissaoContainer = styled.section`
     }
 
     @media(min-width: 1440px){
-        width: 92%;
+        width: 81svw;
         background-color: #20483D;
         border-radius: 1.5rem;
         color: #fff;

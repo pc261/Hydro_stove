@@ -24,7 +24,7 @@ export function Footer() {
                     <div>
 
                         <img src={Localizacao} alt="" />
-                        <a href="#">Rua Doutor Luiz Hoppe 34, São Paulo, Capão Redondo</a>
+                        <a target="_blank" href="https://www.google.com/maps/place/Rua+Dr.+Luiz+Hoppe,+34+-+Jardim+Capao+Redondo,+São+Paulo+-+SP,+05882-400/@-23.6797655,-46.7827698,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce525416f7ff39:0xef0bb00cc5179bbb!8m2!3d-23.6797655!4d-46.7827698!16s%2Fg%2F11c5l31fpk?entry=ttu">Rua Doutor Luiz Hoppe 34, São Paulo, Capão Redondo</a>
 
                     </div>
 
@@ -38,7 +38,7 @@ export function Footer() {
                     <div>
 
                         <img src={Email} alt="" />
-                        <a href="#">hydrostove@gmail.com</a>
+                        <a target="_blank" href="mailto:hydrostove@gmail.com?subject=Desejo%20saber%20mais">hydrostove@gmail.com</a>
 
                     </div>
                         
@@ -49,19 +49,19 @@ export function Footer() {
                     <p>Redes Sociais</p>
 
                     <div>
-                        <a href="#">
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61563736440792">
                             <img src={Facebook} alt="" />
                         </a>
 
-                        <a href="#">
+                        <a target="_blank" href="https://x.com/HydroStove29649">
                             <img src={Twitter} alt="" />
                         </a>
 
-                        <a href="#">
+                        <a target="_blank" href="https://www.instagram.com/hydrostove/">
                             <img src={Instagram} alt="" />
                         </a>
 
-                        <a href="#">
+                        <a target="_blank" href="#">
                             <img src={Whatsapp} alt="" />
                         </a>
                     </div>
