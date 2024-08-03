@@ -110,7 +110,7 @@ export const ButtonPagesDesktop = styled.div`
     }
     
 `
-// Estilização do Conteúdo principal da página 
+// Estilização do Conteúdo Principal da Página 
 
 export const BannerInicial = styled.section`
     background-image: url(/sustentabilidade.png);
@@ -179,23 +179,12 @@ export const Slide = styled.div`
         align-content: center;
         text-align: justify;
         font-family: "Arimo", sans-serif;
-        font-size: 2.6rem;
+        font-size: 1.2rem;
         width: 85%;
         line-height: 3rem;
         padding-block: 2rem;
         flex-direction: column;
-        gap: 3rem;
-    }
-    .paragrafos{
-        color: #FFFF;
-        flex-direction: column;
-        align-content: center;
-        text-align: justify;
-        font-family: "Arimo", sans-serif;
-        font-size: 2.6rem;
-        width: 85%;
-        line-height: 3rem;
-        padding-block: 2rem;
+        gap: 1.5rem;
     }
     .estacao{
         width: 85%;
@@ -218,6 +207,9 @@ export const Slide = styled.div`
             flex-direction: row;
             padding: 3rem;
             gap: 2rem;
+        }
+        .paragrafo, .paragrafos{
+            font-size: 2.6rem;
         }
         .estacao{
             width: 65.2rem;
@@ -267,7 +259,7 @@ export const SobreInicial = styled.div`
     p{
 
         font-family: "Arimo", sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: justify;
         line-height: 2.5rem;
         color: #FFF;
@@ -285,7 +277,7 @@ export const SobreInicial = styled.div`
 
    li{
         font-family: "Arimo", sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: justify;
         line-height: 2.5rem;
         color: #FFF;
@@ -349,12 +341,13 @@ export const NossaMissaoContainer = styled.section`
     margin-top: 7.5rem;
     color: #BDBDBD;
 
-    font-size: 6.4rem;
+    font-size: 5rem;
     gap: 7.5rem;
     
     h2{
         font-family: "Roboto", sans-serif;
         font-weight: 300;
+        width: 90%;
     }
 
     section{

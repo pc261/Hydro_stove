@@ -42,13 +42,12 @@ export function Home() {
               <img className="estacao" src={Estacao2} alt="" />
             </div>
             <div className="paragrafo">
-              <p>Nosso protótipo é composto por uma E.T.A. que, tanto a longo prazo, quanto a curto prazo trará benefícios, tais como a economia   de água e a facilidade de cultivo aos agricultores e pequenos produtores. Abaixo, falaremos mais sobre ela: <br />
+              <p>Nosso protótipo é composto por uma E.T.A. que, tanto a longo prazo, quanto a curto prazo trará benefícios, tais como a economia   de água e a facilidade de cultivo aos agricultores e pequenos produtores. Abaixo, falaremos mais sobre ela:
               </p>
               <p>
               O Projeto da Estação de Tratamento de Água (E.T.A.) é uma iniciativa fundamental para garantir o acesso à água limpa. A principal finalidade desse projeto é tratar a água bruta proveniente de fontes de abastecimento, como rios, lagos ou lençóis freáticos, com finalidade de remover contaminantes químicos, tornando-a adequada para a utilização na agricultura.
               </p>
             </div>
-
           </div>
         </Slide>
 
@@ -86,27 +85,24 @@ export function Home() {
               <img className="estacao" src={Plantacao} alt="" />
             </div>
             <div className="paragrafo">
-                <div className="paragrafos">
-                  <p>
-                    Como sabemos, a água é indispensável para a vida. Visto isso, podemos comprovar essa afirmação com os tópicos abaixo:
-                  </p> <br />
+              <p>
+                Como sabemos, a água é indispensável para a vida. Visto isso, podemos comprovar essa afirmação com os tópicos abaixo:
+              </p> 
 
-                  <ul>
-                    <p>
-                      ► De acordo com a ciência, 70% do consumo de água mundial é utilizado pela agricultura, e que como substrato à vida, a água não possui uma substituição.
-                    </p> <br />
-                    <p>
-                      ► A exigência mundial por água de boa qualidade, é maior do que a renovação do ciclo hidrológico.
-                    </p> <br />
-                    <p>
-                      ► Até 2050, a população mundial atingira entre 7,5 e 10,5 bilhões, o que aumentara a demanda de água.
-                    </p> <br />
-                    <p>
-                      ► A irrigação por  gotejamento é ideal, pois há uma grande economia de água, assim como uma alta eficiência de aplicação.
-                    </p>
-                  </ul>
-                </div>
+              <p>
+                ► De acordo com a ciência, 70% do consumo de água mundial é utilizado pela agricultura, e que como substrato à vida, a água não possui uma substituição.
+              </p> 
+              <p>
+                ► A exigência mundial por água de boa qualidade, é maior do que a renovação do ciclo hidrológico.
+              </p> 
+              <p>
+                ► Até 2050, a população mundial atingira entre 7,5 e 10,5 bilhões, o que aumentara a demanda de água.
+              </p> 
+              <p>
+                ► A irrigação por  gotejamento é ideal, pois há uma grande economia de água, assim como uma alta eficiência de aplicação.
+              </p>
             </div>
+            
           </div>
         </Slide>
 
@@ -114,7 +110,7 @@ export function Home() {
 
         <NossaMissaoContainer>
 
-          <h2>Nossos Objetivos</h2>
+          <h2>Nosso Objetivo</h2>
 
           <section>
 

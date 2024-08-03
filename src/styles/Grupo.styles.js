@@ -44,7 +44,8 @@ export const Integrante = styled.section`
 
         p{
             background-color: #20483D;
-            border-radius: 1rem;
+            height: 18rem;
+            width: 121.8rem;
 
             margin-top: 6.1rem;
             margin-bottom: 6.1rem;
@@ -62,15 +63,15 @@ export const Integrante = styled.section`
 
         .esquerda {
             img{
-                margin-right: -5rem;
+                margin-right: -6rem;
                 z-index: 1;
-
             }
         }
         .direita {
             img{
-                margin-left: -5rem;
+                margin-left: -6rem;
             }
+            text-align: left;
         }
     }
 `
