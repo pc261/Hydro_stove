@@ -147,8 +147,6 @@ export function Home() {
             <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
           </div>
 
-          <a href="#">ver mais</a>
-
         </ImagensContainer>
 
 

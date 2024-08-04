@@ -458,24 +458,6 @@ export const ImagensContainer = styled.section`
         display: none;
     }
 
-    a{
-        width: 22.2rem;
-        height: 7.1rem;
-        border-radius: 1.5rem;
-        background-color: #20483D;
-
-        display: flex ;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-
-        color: #FFF;
-        font-family: "Roboto", sans-serif;
-        text-transform: uppercase;
-        font-size: 1.2rem;
-        letter-spacing: 0.5rem;
-    }
-
     @media(min-width: 1024px){
         
         margin-bottom: 6.8rem;
@@ -517,15 +499,6 @@ export const ImagensContainer = styled.section`
                 height: 25.5rem;
                 border-radius: 1rem;
             }
-        }
-
-        a{
-            width: 42.4rem;
-            height: 13.7rem;
-            margin-bottom: 6.8rem;
-
-            font-size: 2.4rem;
-
         }
     }
 `

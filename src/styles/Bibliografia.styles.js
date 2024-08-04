@@ -62,10 +62,12 @@ export const Referencia = styled.section`
 
         h1{
             color: #BDBDBD;
-            font-size: 4rem;
+            font-size: 2.4rem;
             font-family: 'Roboto',sans-serif;
             font-weight: 300;
             text-transform: uppercase;
+            max-width: 85%;
+            text-align: left;
         }
 
         a{

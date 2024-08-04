@@ -126,9 +126,8 @@ export const Fotos = styled.section`
         margin-bottom: 7.2rem;
 
         img{
-            width: 17.8rem;
-            height: 16.5rem;
-            border-radius: 1rem;
+            width: 18rem;
+            border-radius: 8px;
         }
     }
 
@@ -153,9 +152,8 @@ export const Fotos = styled.section`
         }
 
         div img{
-            width: 50.3rem;
-            height: 43.7rem;
-            border-radius: 1rem;
+            width: 50rem;
+            border-radius: 8px;
         }
 
         p{

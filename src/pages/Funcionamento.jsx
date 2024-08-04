@@ -3,6 +3,7 @@ import { Fotos, ImagemContainer, Integracao, LetreiroInicial, Utilizacao } from 
 import { Main } from "../styles/global.js";
 import { Footer } from "../elements/Footer.jsx";
 import ImagemDemonstrativa from "/ImagemDemonstrativa.png"
+import Andamento1 from "/andamento1.jpeg"
 
 export function Funcionamento() {
   return (
@@ -45,8 +46,8 @@ export function Funcionamento() {
           <h2>Projeto</h2>
 
           <div>
-            <img src={ImagemDemonstrativa} alt="foto do...." />
-            <p>Data: xx/xx/xxxx</p>
+            <img src={Andamento1} alt="foto do...." />
+            <p>Data: 01/08/2024</p>
           </div>
 
           <div>

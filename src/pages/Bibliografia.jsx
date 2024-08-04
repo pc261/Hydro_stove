@@ -22,16 +22,16 @@ export function Bibliografia() {
         <Referencia>
 
             <div>
-                <h1>Link</h1>
-                <a href="">
+                <h1>Qualidade da água na agricultura e no ambiente</h1>
+                <a target="_blank" href="https://www.bibliotecaagptea.org.br/administracao/educacao/artigos/MANEJO%20DO%20AMBIENTE%20EM%20CULTIVO%20PROTEGIDO.pdf">
                     <p>Ver mais</p>
                     <img src={Seta} alt="" />
                 </a>
             </div>
 
             <div>
-                <h1>Link</h1>
-                <a href="">
+                <h1>MANEJO DO AMBIENTE EM CULTIVO PROTEGIDO</h1>
+                <a target="_blank" href="https://www.bibliotecaagptea.org.br/administracao/educacao/artigos/MANEJO%20DO%20AMBIENTE%20EM%20CULTIVO%20PROTEGIDO.pdf">
                     <p>Ver mais</p>
                     <img src={Seta} alt="" />
                 </a>
@@ -42,16 +42,16 @@ export function Bibliografia() {
         <Referencia>
 
             <div>
-                <h1>Link</h1>
-                <a href="">
+                <h1>Ciência, tecnologia e inovação na interface entre as áreas de recursos hídricos e saneamento</h1>
+                <a target="_blank" href="https://www.scielo.br/j/esa/a/dQkgWPTQL8mQfGKvMmKnCyC/">
                     <p>Ver mais</p>
                     <img src={Seta} alt="" />
                 </a>
             </div>
 
             <div>
-                <h1>Link</h1>
-                <a href="">
+                <h1>PROJETO EXPERIMENTAL DE ESTUFA DOMÉSTICA PARA FIM DE CULTIVO ALIMENTÍCIO E MEDICINAL</h1>
+                <a target="_blank" href="https://repositorio.usp.br/directbitstream/f4ca1ac2-ab85-42e3-a365-0fd5d48b44e8/EP21001%20Furlan.pdf">
                     <p>Ver mais</p>
                     <img src={Seta} alt="" />
                 </a>
