@@ -117,11 +117,11 @@ export const Fotos = styled.section`
     }
 
     div {
-        width: 100%;
+        width: 85%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        text-align: center;
+
+
         gap: 2rem;
         margin-bottom: 7.2rem;
 
