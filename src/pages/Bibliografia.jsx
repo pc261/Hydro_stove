@@ -22,7 +22,7 @@ export function Bibliografia() {
         <Referencia>
 
             <div>
-                <h1>Qualidade da água na agricultura e no ambiente.</h1>
+                <h1>QUALIDADE da água na agricultura e no ambiente.</h1>
                 <a target="_blank" href="https://www.bibliotecaagptea.org.br/administracao/educacao/artigos/MANEJO%20DO%20AMBIENTE%20EM%20CULTIVO%20PROTEGIDO.pdf">
                     <p>Ver mais</p>
                     <img src={Seta} alt="" />
