@@ -28,7 +28,7 @@ export function Bibliografia() {
                     <img src={Seta} alt="" />
                 </a>
             </div>
-
+            <hr />
             <div>
                 <h1>MANEJO DO AMBIENTE EM CULTIVO PROTEGIDO</h1>
                 <a target="_blank" href="https://www.bibliotecaagptea.org.br/administracao/educacao/artigos/MANEJO%20DO%20AMBIENTE%20EM%20CULTIVO%20PROTEGIDO.pdf">
@@ -48,7 +48,7 @@ export function Bibliografia() {
                     <img src={Seta} alt="" />
                 </a>
             </div>
-
+            <hr />
             <div>
                 <h1>PROJETO EXPERIMENTAL DE ESTUFA DOMÉSTICA PARA FIM DE CULTIVO ALIMENTÍCIO E MEDICINAL</h1>
                 <a target="_blank" href="https://repositorio.usp.br/directbitstream/f4ca1ac2-ab85-42e3-a365-0fd5d48b44e8/EP21001%20Furlan.pdf">

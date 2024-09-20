@@ -4,6 +4,7 @@ import { Main } from "../styles/global.js";
 import { Footer } from "../elements/Footer.jsx";
 import ImagemDemonstrativa from "/ImagemDemonstrativa.png"
 import Andamento1 from "/andamento1.jpeg"
+import Andamento2 from "/andamento2.jpeg"
 
 export function Funcionamento() {
   return (
@@ -51,8 +52,8 @@ export function Funcionamento() {
           </div>
 
           <div>
-            <p>Data: xx/xx/xxxx</p>
-            <img src={ImagemDemonstrativa} alt="foto do...." />
+            <p>Data: 16/09/2024</p>
+            <img src={Andamento2} alt="foto do...." />
           </div>
         </Fotos>
 
