@@ -5,6 +5,10 @@ import { Footer } from "../elements/Footer.jsx";
 import ImagemDemonstrativa from "/ImagemDemonstrativa.png"
 import Andamento1 from "/andamento1.jpeg"
 import Andamento2 from "/andamento2.jpeg"
+import Img1 from "/image4.jpg"
+import Img2 from "/image5.jpg"
+import Img3 from "/image1.jpg"
+import Img4 from "/image3.jpg"
 
 export function Funcionamento() {
   return (
@@ -21,8 +25,9 @@ export function Funcionamento() {
         </LetreiroInicial>
 
         <ImagemContainer>
-        
-          <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
+          
+          <img src={Img1} alt="Imagem demostrativa" />
+          <img src={Img2} alt="Imagem demostrativa" />
           
         </ImagemContainer>
 
@@ -30,7 +35,7 @@ export function Funcionamento() {
 
             <p className="TextoCentralizado">Como utilizar a estufa:</p>
 
-            <p>Para utilizar a estufa é necessário instalar o nosso aplicativo (“LINK DO APLICATIVO”). Nele, você vai conseguir conectar o seu celular à estufa, assim podendo receber informações em tempo real e enviar comandos à estufa. Funções como: tempo de ativação do sistema de irrigação, tempo de ligar e desligar as luzes da estufa, ligar e desligar o tratamento de água e além disso é possível receber informações como a umidade do solo, tudo isso na palma da sua mão, deseja aprender a utilizar esse aplicativo? </p>
+            <p>Para utilizar a estufa é necessário instalar o nosso aplicativo HydroStove APP. Nele, você vai conseguir conectar o seu celular à estufa, assim podendo receber informações em tempo real e enviar comandos à estufa. Funções como: tempo de ativação do sistema de irrigação, tempo de ligar e desligar as luzes da estufa, ligar e desligar o tratamento de água e além disso é possível receber informações como a umidade do solo, tudo isso na palma da sua mão, deseja aprender a utilizar esse aplicativo? </p>
 
             <p className="TextoCentralizado">Veja o vídeo a seguir:</p>
             
@@ -63,8 +68,10 @@ export function Funcionamento() {
 
           <p>Nossa estufa tem um sistema integrado de tratamento de água. Além disso, há a possibilidade do usuário de configurar a estufa para determinados tipos de plantas, fazendo com que seja mais fácil a integração da nossa estufa para o dia a dia dos nossos usuários.</p>
           
-  
-          <img src={ImagemDemonstrativa} alt="" />
+          <div className="imagem-container">
+            <img src={Img3} alt="" />
+            <img src={Img4} alt="" />
+          </div>
           
         </Integracao>
         

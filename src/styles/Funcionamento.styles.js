@@ -41,18 +41,24 @@ export const ImagemContainer = styled.section`
     justify-content: center;
     align-items: center;
 
-
     img{
         width: 85%;
         height: 26.6rem;
         border-radius: 1rem;
+        margin-bottom: 2rem;
     }
 
     @media (min-width: 1440px){
 
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: flex-start;
+
         img{
-            width: 85%;
+            width: 40%;
             height: 43.7rem;
+            display: flex;
+            margin: 2rem;
         }
     }
 `
@@ -163,7 +169,6 @@ export const Fotos = styled.section`
 `
 
 export const Integracao = styled.section`
-
     width: 84%;
     display: flex;
     flex-direction: column;
@@ -194,13 +199,21 @@ export const Integracao = styled.section`
         line-height: 2.5rem;
     }
 
-    img{
+    img {
         height: 26.6rem;
         margin-bottom: 8.7rem;
         border-radius: 1rem;
     }
 
+
+    .imagem-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem; 
+    }
+
     @media (min-width: 1440px) {
+
         width: 85%;
         display: block;
 
@@ -212,12 +225,7 @@ export const Integracao = styled.section`
             font-size: 6.4rem;
             margin-bottom: 6rem;
         }
-
-        img{
-            width: 100%;
-            height: 43.7rem;
-            border-radius: 1rem;
-        }
+    
 
         p{
             width: 100%;
@@ -228,6 +236,17 @@ export const Integracao = styled.section`
             padding-inline: 3.3rem;
             padding-block: 6.4rem;
             margin-bottom: 3.9rem;
+        }
+
+        .imagem-container {
+            flex-direction: row; 
+            justify-content: space-between; 
+        }
+
+        img {
+            width: 48%; 
+            height: 43.7rem;
+            margin-bottom: 0; 
         }
     }
 `
