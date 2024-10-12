@@ -9,7 +9,11 @@ import Estacao from "/estação1.png"
 import Estacao2 from "/estação2.png"
 import Estufa from "/estufa1.png"
 import Estufa2 from "/estufa2.png"
-
+import Img1 from "/image1.jpg"
+import Img2 from "/image2.jpg"
+import Img3 from "/image3.jpg"
+import Img4 from "/image4.jpg"
+import Img5 from "/image5.jpg"
 
 
 export function Home() {
@@ -137,14 +141,14 @@ export function Home() {
           <h2>Nosso Projeto</h2>
 
           <div id="ImagensMobile">
-              <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
-              <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
+              <img src={Img2} alt="Imagem demostrativa" />
+              <img src={Img3} alt="Imagem demostrativa" />
           </div>
 
           <div id="ImagensDesktop">
-            <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
-            <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
-            <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
+            <img src={Img4} alt="Imagem demostrativa" />
+            <img src={Img1} alt="Imagem demostrativa" />
+            <img src={Img5} alt="Imagem demostrativa" />
           </div>
 
         </ImagensContainer>
