@@ -16,7 +16,7 @@ export function Bibliografia() {
 
         <Letreiro>
             <h1>Bibliografia</h1>
-            <h2>Do Projeto</h2>
+            <h2>Do Projeto </h2>
         </Letreiro>
 
         <Referencia>
