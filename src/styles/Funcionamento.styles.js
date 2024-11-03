@@ -47,6 +47,12 @@ export const ImagemContainer = styled.section`
         border-radius: 1rem;
         margin-bottom: 2rem;
     }
+    iframe{
+        width: 85%;
+        height: 26.6rem;
+        border-radius: 1rem;
+        margin-bottom: 2rem; 
+    }
 
     @media (min-width: 1440px){
 
@@ -55,6 +61,12 @@ export const ImagemContainer = styled.section`
         align-items: flex-start;
 
         img{
+            width: 40%;
+            height: 43.7rem;
+            display: flex;
+            margin: 2rem;
+        }
+        iframe{
             width: 40%;
             height: 43.7rem;
             display: flex;
