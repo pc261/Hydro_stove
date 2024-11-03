@@ -35,15 +35,15 @@ export function Funcionamento() {
 
             <p className="TextoCentralizado">Como utilizar a estufa:</p>
 
-            <p>Para utilizar a estufa é necessário instalar o nosso aplicativo HydroStove APP. Nele, você vai conseguir conectar o seu celular à estufa, assim podendo receber informações em tempo real e enviar comandos à estufa. Funções como: tempo de ativação do sistema de irrigação, tempo de ligar e desligar as luzes da estufa, ligar e desligar o tratamento de água e além disso é possível receber informações como a umidade do solo, tudo isso na palma da sua mão, deseja aprender a utilizar esse aplicativo? </p>
+            <p>Para utilizar a estufa é necessário instalar o nosso aplicativo HydroStove APP. Nele, você vai conseguir conectar o seu celular à estufa, assim podendo receber informações em tempo real e enviar comandos à estufa. Funções como: tempo de ativação do sistema de irrigação, tempo de ligar e desligar as luzes da estufa, ligar e desligar o tratamento de água e além disso é possível receber informações como a umidade do solo, tudo isso na palma da sua mão. </p>
 
             <p className="TextoCentralizado">Veja o vídeo a seguir:</p>
             
         </Utilizacao>
 
         <ImagemContainer>
-           
-          <img src={ImagemDemonstrativa} alt="Imagem demostrativa" />
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/U8gWH8U10UM?si=YxvnjQcJj8MEiHqr&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               
         </ImagemContainer>
 
