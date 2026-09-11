@@ -1,0 +1,148 @@
+#include "ESP8266WiFi.h"
+#include <PubSubClient.h>
+#include <Wire.h> // Biblioteca Wire para I2C
+
+// Conexão ao Wi-Fi
+  const char* ssid = "Redmizao";
+  const char* password = "58707079";
+
+ // MQTT Broker/Conexão do MQTT
+  const char *mqtt_broker = "maqiatto.com";
+  const char *topic = "hydrostove@gmail.com/info";
+  const char *topic1 = "hydrostove@gmail.com/volume_agua_tratada";
+  const char *topic2 = "hydrostove@gmail.com/umidade_solo";
+  const char *topic3 = "hydrostove@gmail.com/polimero";
+  const char *topic4 = "hydrostove@gmail.com/sulfato_de_aluminio";
+  const char *topic5 = "hydrostove@gmail.com/umidade_desejada";
+  const char *mqtt_username = "hydrostove@gmail.com";
+  const char *mqtt_password = "hydrostove";
+  const int mqtt_port = 1883;
+
+
+ // Variáveis de estado
+  bool mqttStatus = false;
+
+ // Objetos para a conexão do Mqtt
+  WiFiClient espClient;
+  PubSubClient client(espClient);
+
+ // Prototipos
+  bool connectMQTT();
+  void callback(char *topic, byte *payload, unsigned int length);
+  void leitura();
+
+ // Endereço I2C do Arduino Mega (escravo)
+  const int arduinoAddress = 8; // Define o endereço I2C do Arduino Mega
+
+void setup() {
+  Serial.begin(9600);
+    
+// Conectando ao Wi-Fi
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+
+  // Retornod da conexão para o monitor Serial 
+  Serial.println("\nWi-Fi conectado!");
+  Serial.print("Endereço IP: ");
+  Serial.println(WiFi.localIP());
+
+  // Conectando ao MQTT
+  mqttStatus = connectMQTT();
+    
+  // Iniciar comunicação I2C
+  Wire.begin(4,5); // Inicia o ESP8266 como mestre (SDA = D2, SCL = D1)
+
+}
+
+int sensor = 0;
+bool ativ = true;
+void loop() {
+  if (mqttStatus) {
+    if(ativ == true){
+      leitura();
+    }
+    while( ativ == false){
+      client.loop(); // Mantém a conexão MQTT viva
+    }
+  }
+}
+
+// Função para conectar ao MQTT
+bool connectMQTT() {
+  byte tentativa = 0;
+  client.setServer(mqtt_broker, mqtt_port);
+  client.setCallback(callback);
+
+  while (!client.connected() && tentativa < 5) {
+    String client_id = "HydroStove-";
+    client_id += String(WiFi.macAddress());
+    if (client.connect(client_id.c_str(), mqtt_username, mqtt_password)) {
+      Serial.println("Conexão ao servidor MQTT bem-sucedida");
+      client.publish(topic, "conexão realizada com sucesso Hydrosove");
+      client.subscribe(topic5);
+    } 
+    else {
+      Serial.println("Falha ao conectar ao MQTT");
+      delay(2000);
+    }
+
+      tentativa++;
+  }
+     return client.connected();
+}
+
+// Função para solicitar leituras ao Arduino Mega (via I2C)
+void leitura() {
+  for (sensor = 1; sensor <= 5; sensor++) {
+    if (sensor == 5) {
+      ativ = false;
+      return;
+    }
+
+    Wire.beginTransmission(arduinoAddress); // Inicia transmissão I2C
+    Wire.write(sensor); // Solicita a leitura do sensor 
+    Wire.endTransmission();
+      
+    delay(100); // Pequena pausa para garantir que o Arduino Mega processe
+
+    Wire.requestFrom(arduinoAddress, 1); // Solicita 1 byte do Arduino Mega
+    while (Wire.available()) {
+      int valor = Wire.read(); // Lê o valor enviado pelo Arduino Mega
+      String mensagem;
+        
+      if (valor == 1 || valor == 0) {
+        mensagem = "Baixo";
+      } else if (valor == 2) {
+        mensagem = "Médio";
+      } else if (valor == 3 || valor > 3) {
+        mensagem = "Alto";
+      }
+     // Publica no tópico MQTT correspondente ao sensor
+      if (sensor == 1) {
+        client.publish(topic1, mensagem.c_str());
+      } if (sensor == 2) {
+        client.publish(topic2, mensagem.c_str());
+      } if (sensor == 3) {
+        client.publish(topic3, mensagem.c_str());
+      } if (sensor == 4) {
+        client.publish(topic4, mensagem.c_str());
+      } 
+    }
+    delay(5000); // Tempo entre leituras de diferentes sensores
+  }
+}
+void callback(char *topic, byte *payload, unsigned int length) {
+  if ((char)payload[0] == '1' && sensor == 5 ){
+    Wire.beginTransmission(arduinoAddress); // Inicia transmissão I2C
+    Wire.write(13); // Solicita a leitura do sensor 
+    Wire.endTransmission();
+  }
+  if ((char)payload[0] == '0' && sensor == 5 ){
+    Wire.beginTransmission(arduinoAddress); // Inicia transmissão I2C
+    Wire.write(14); // Solicita a leitura do sensor 
+    Wire.endTransmission();
+  }
+}
